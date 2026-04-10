@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJF26 Flight Dashboard</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            color: #aaa;
+            font-size: 1.1rem;
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .stat-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 15px 25px;
+            color: white;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .stat-card .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        .stat-card .label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .search-container {
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            display: block;
+            padding: 15px 25px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 50px;
+            background: rgba(255,255,255,0.95);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            box-shadow: 0 4px 25px rgba(255,215,0,0.3);
+            transform: translateY(-2px);
+        }
+
+        .search-input::placeholder {
+            color: #999;
+        }
+
+        .sort-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .sort-select {
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 25px;
+            background: rgba(255,255,255,0.95);
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .sort-select:focus {
+            outline: none;
+        }
+
+        .sort-direction-btn {
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 25px;
+            background: rgba(255,255,255,0.95);
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: all 0.2s ease;
+        }
+
+        .sort-direction-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+
+        .sort-direction-btn:active {
+            transform: translateY(0);
+        }
+
+        .flight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+        }
+
+        .flight-card {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border-left: 5px solid #ddd;
+        }
+
+        .flight-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+        }
+
+        .flight-card.arrival {
+            border-left-color: #28a745;
+        }
+
+        .flight-card.departure {
+            border-left-color: #dc3545;
+        }
+
+        .flight-card.train {
+            border-left-color: #6c757d;
+        }
+
+        .flight-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .flight-type-badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .flight-type-badge.arrival {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .flight-type-badge.departure {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .flight-type-badge.train {
+            background: #e2e3e5;
+            color: #383d41;
+        }
+
+        .flight-time {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .flight-date {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        .flight-details {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #444;
+            margin-bottom: 12px;
+        }
+
+        .flight-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .flight-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .flight-number {
+            display: inline-block;
+            background: #f0f0f0;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-family: monospace;
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .flightaware-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 12px;
+            padding: 10px 18px;
+            background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 8px rgba(255,107,107,0.3);
+        }
+
+        .flightaware-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(255,107,107,0.4);
+        }
+
+        .flightaware-btn svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .no-results {
+            text-align: center;
+            color: #fff;
+            font-size: 1.2rem;
+            margin-top: 50px;
+            display: none;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        @media (max-width: 768px) {
+            .flight-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .stats-bar {
+                gap: 15px;
+            }
+
+            .stat-card {
+                padding: 10px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✈️ Denver Jazz Fest 2026</h1>
+            <p>Flight Information Dashboard</p>
+        </header>
+
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="number" id="total-flights">0</div>
+                <div class="label">Total Flights</div>
+            </div>
+            <div class="stat-card">
+                <div class="number" id="total-arrivals">0</div>
+                <div class="label">Arrivals</div>
+            </div>
+            <div class="stat-card">
+                <div class="number" id="total-departures">0</div>
+                <div class="label">Departures</div>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <input type="text" 
+                   class="search-input" 
+                   id="searchInput" 
+                   placeholder="Search by artist, flight number, date, or location...">
+        </div>
+
+        <div class="sort-container">
+            <select class="sort-select" id="sortSelect">
+                <option value="datetime">Sort by Date & Time</option>
+                <option value="artist">Sort by Artist Name</option>
+                <option value="type">Sort by Flight Type</option>
+                <option value="flight_number">Sort by Flight Number</option>
+            </select>
+            <button class="sort-direction-btn" id="sortDirectionBtn" title="Toggle sort direction">
+                ↑ Ascending
+            </button>
+        </div>
+
+        <div class="flight-grid" id="flightGrid">
+            <!-- Flight cards will be inserted here -->
+        </div>
+
+        <div class="no-results" id="noResults">
+            No flights found matching your search.
+        </div>
+    </div>
+
+    <script>
+        const flights = [{"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "TBD", "type": "Arrival", "details": "Elew arrives in Denver (Train - arrival time TBD)", "artist_group": "ELEW", "location": "Denver Union Station", "address": "Union Station, Denver, CO 80202", "flight_number": null, "flight_number_icao": null, "flightaware_link": null, "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "0:35", "type": "Departure", "details": "Rodney Whitaker, Randy Napoleon depart Denver", "artist_group": "Rodney Whitaker", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": null, "flight_number_icao": null, "flightaware_link": null, "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "11:20", "type": "Departure", "details": "Marvin Smith departs Denver (UA 2154)", "artist_group": "Orrin Evans", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA2154", "flight_number_icao": "UAL2154", "flightaware_link": "https://flightaware.com/live/flight/UAL2154", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "11:47", "type": "Departure", "details": "Orrin Evans depart Denver (AS 682)", "artist_group": "Orrin Evans", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "AS682", "flight_number_icao": "ASA682", "flightaware_link": "https://flightaware.com/live/flight/ASA682", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "12:12", "type": "Arrival", "details": "Mark Turner, Ben Williams arrive in Denver (UA 1912)", "artist_group": "John Beasley | Miles", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA1912", "flight_number_icao": "UAL1912", "flightaware_link": "https://flightaware.com/live/flight/UAL1912", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "12:30", "type": "Departure", "details": "Andrii Chmut departs Denver (DL 952)", "artist_group": "Bob James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL952", "flight_number_icao": "DAL952", "flightaware_link": "https://flightaware.com/live/flight/DAL952", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "12:45", "type": "Arrival", "details": "Marquis Hill arrives in Denver  (UA 1803)", "artist_group": "John Beasley | Miles", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA1803", "flight_number_icao": "UAL1803", "flightaware_link": "https://flightaware.com/live/flight/UAL1803", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "15:02", "type": "Departure", "details": "Michael Palazzolo departs Denver (DL 1648)", "artist_group": "Bob James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL1648", "flight_number_icao": "DAL1648", "flightaware_link": "https://flightaware.com/live/flight/DAL1648", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "15:02", "type": "Departure", "details": "Robert Hurst departs in Denver (DL 1648)", "artist_group": "Orrin Evans", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL1648", "flight_number_icao": "DAL1648", "flightaware_link": "https://flightaware.com/live/flight/DAL1648", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "17:17", "type": "Arrival", "details": "Ingrid Jensen arrives in Denver (DL 5431)", "artist_group": "Ingrid Jensen", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL5431", "flight_number_icao": "DAL5431", "flightaware_link": "https://flightaware.com/live/flight/DAL5431", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "19:29", "type": "Arrival", "details": "Gary Versace arrives in Denver (UA 599)", "artist_group": "Ingrid Jensen", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA599", "flight_number_icao": "UAL599", "flightaware_link": "https://flightaware.com/live/flight/UAL599", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "22:15", "type": "Arrival", "details": "Jon Wikan arrives in Denver (UA 582)", "artist_group": "Ingrid Jensen", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA582", "flight_number_icao": "UAL582", "flightaware_link": "https://flightaware.com/live/flight/UAL582", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "8:00", "type": "Departure", "details": "John Mahon departs Denver (DL 1581)", "artist_group": "Bob James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL1581", "flight_number_icao": "DAL1581", "flightaware_link": "https://flightaware.com/live/flight/DAL1581", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "9:35", "type": "Departure", "details": "Bob James departs Denver (UA 2329)", "artist_group": "Bob James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA2329", "flight_number_icao": "UAL2329", "flightaware_link": "https://flightaware.com/live/flight/UAL2329", "drivers": "", "notes": ""}, {"date": "4/10 (Friday)", "date_sort": "2026-04-10", "time": "9:50", "type": "Departure", "details": "Ava DiSimone departs Denver (DL 3876)", "artist_group": "Bob James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL3876", "flight_number_icao": "DAL3876", "flightaware_link": "https://flightaware.com/live/flight/DAL3876", "drivers": "", "notes": ""}, {"date": "4/11 (Saturday)", "date_sort": "2026-04-11", "time": "10:03", "type": "Arrival", "details": "Jose James, Ebban Dorsey, Luther Allison, Kanoa Mendenhall, Jharis Yokley arrives in Denver (UA 690)", "artist_group": "Jose James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA690", "flight_number_icao": "UAL690", "flightaware_link": "https://flightaware.com/live/flight/UAL690", "drivers": "", "notes": ""}, {"date": "4/11 (Saturday)", "date_sort": "2026-04-11", "time": "10:10", "type": "Departure", "details": "John Beasley, Terreon Gully, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel depart Denver (UA 361)", "artist_group": "John Beasley | Miles", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA361", "flight_number_icao": "UAL361", "flightaware_link": "https://flightaware.com/live/flight/UAL361", "drivers": "", "notes": ""}, {"date": "4/11 (Saturday)", "date_sort": "2026-04-11", "time": "12:00", "type": "Arrival", "details": "Amina Scott arrives in Denver (WN 3780)", "artist_group": "Ingrid Jensen", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "WN3780", "flight_number_icao": "SWA3780", "flightaware_link": "https://flightaware.com/live/flight/SWA3780", "drivers": "", "notes": ""}, {"date": "4/11 (Saturday)", "date_sort": "2026-04-11", "time": "12:34", "type": "Departure", "details": "Kenny Davis departs Denver (UA 1283)", "artist_group": "Carmen Lundy", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA1283", "flight_number_icao": "UAL1283", "flightaware_link": "https://flightaware.com/live/flight/UAL1283", "drivers": "", "notes": ""}, {"date": "4/11 (Saturday)", "date_sort": "2026-04-11", "time": "13:40", "type": "Departure", "details": "Carmen Lundy, Elizabeth Oei, Julius Rodriguez, Andrew Renfroe, Donovan Cheatham depart Denver (UA 1812)", "artist_group": "Carmen Lundy", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA1812", "flight_number_icao": "UAL1812", "flightaware_link": "https://flightaware.com/live/flight/UAL1812", "drivers": "", "notes": ""}, {"date": "4/12 (Sunday)", "date_sort": "2026-04-12", "time": "12:18", "type": "Arrival", "details": "Fred Hersch, Drew Gress, Johnathan Blake arrives in Denver (UA 1912)", "artist_group": "Fred Hersch", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA1912", "flight_number_icao": "UAL1912", "flightaware_link": "https://flightaware.com/live/flight/UAL1912", "drivers": "", "notes": ""}, {"date": "4/12 (Sunday)", "date_sort": "2026-04-12", "time": "7:45", "type": "Departure", "details": "Jose James, Ebban Dorsey depart Denver (UA 2640)", "artist_group": "Jose James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA2640", "flight_number_icao": "UAL2640", "flightaware_link": "https://flightaware.com/live/flight/UAL2640", "drivers": "", "notes": ""}, {"date": "4/12 (Sunday)", "date_sort": "2026-04-12", "time": "8:08", "type": "Departure", "details": "Luther Allison, Kanoa Mendenhall depart Denver (UA 1442)", "artist_group": "Jose James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA1442", "flight_number_icao": "UAL1442", "flightaware_link": "https://flightaware.com/live/flight/UAL1442", "drivers": "", "notes": ""}, {"date": "4/12 (Sunday)", "date_sort": "2026-04-12", "time": "9:41", "type": "Departure", "details": "Jharis Yokley departs Denver (UA 1362)", "artist_group": "Jose James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA1362", "flight_number_icao": "UAL1362", "flightaware_link": "https://flightaware.com/live/flight/UAL1362", "drivers": "", "notes": ""}, {"date": "4/13 (Monday)", "date_sort": "2026-04-13", "time": "TBD", "type": "Departure", "details": "Elew departs Denver (Train - arrival time TBD)", "artist_group": "ELEW", "location": "Denver Union Station", "address": "Union Station, Denver, CO 80202", "flight_number": null, "flight_number_icao": null, "flightaware_link": null, "drivers": "", "notes": ""}, {"date": "4/13 (Monday)", "date_sort": "2026-04-13", "time": "13:40", "type": "Departure", "details": "Drew Gress, Johnathan Blake depart Denver (UA 732)", "artist_group": "Fred Hersch", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA732", "flight_number_icao": "UAL732", "flightaware_link": "https://flightaware.com/live/flight/UAL732", "drivers": "", "notes": ""}, {"date": "4/13 (Monday)", "date_sort": "2026-04-13", "time": "6:00", "type": "Departure", "details": "Ingrid Jensen, Jon Wikan depart Denver (UA 2345)", "artist_group": "Ingrid Jensen", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA2345", "flight_number_icao": "UAL2345", "flightaware_link": "https://flightaware.com/live/flight/UAL2345", "drivers": "", "notes": ""}, {"date": "4/13 (Monday)", "date_sort": "2026-04-13", "time": "6:00", "type": "Departure", "details": "Gary Versace departs Denver (UA 1377)", "artist_group": "Ingrid Jensen", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA1377", "flight_number_icao": "UAL1377", "flightaware_link": "https://flightaware.com/live/flight/UAL1377", "drivers": "", "notes": ""}, {"date": "4/13 (Monday)", "date_sort": "2026-04-13", "time": "7:45", "type": "Departure", "details": "Amina Scott departs Denver (UA 2183)", "artist_group": "Ingrid Jensen", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA2183", "flight_number_icao": "UAL2183", "flightaware_link": "https://flightaware.com/live/flight/UAL2183", "drivers": "", "notes": ""}, {"date": "4/14 (Tuesday)", "date_sort": "2026-04-14", "time": "13:40", "type": "Departure", "details": "Fred Hersch departs Denver (UA 732)", "artist_group": "Fred Hersch", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA732", "flight_number_icao": "UAL732", "flightaware_link": "https://flightaware.com/live/flight/UAL732", "drivers": "", "notes": ""}, {"date": "4/6 (Monday)", "date_sort": "2026-04-06", "time": "18:18", "type": "Arrival", "details": "John Beasley, Kurt Rosenwinkel (+1) arrive in Denver (UA 2660)", "artist_group": "John Beasley | Miles", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA2660", "flight_number_icao": "UAL2660", "flightaware_link": "https://flightaware.com/live/flight/UAL2660", "drivers": "", "notes": ""}, {"date": "4/7 (Tuesday)", "date_sort": "2026-04-07", "time": "8:38", "type": "Arrival", "details": "Bob James arrives in Denver (UA 2643)", "artist_group": "Bob James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA2643", "flight_number_icao": "UAL2643", "flightaware_link": "https://flightaware.com/live/flight/UAL2643", "drivers": "", "notes": ""}, {"date": "4/8 (Wednesday)", "date_sort": "2026-04-08", "time": "14:34", "type": "Arrival", "details": "Yoshi Kato arrives in Denver (DL 1586)", "artist_group": "-", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL1586", "flight_number_icao": "DAL1586", "flightaware_link": "https://flightaware.com/live/flight/DAL1586", "drivers": "", "notes": ""}, {"date": "4/8 (Wednesday)", "date_sort": "2026-04-08", "time": "15:07", "type": "Arrival", "details": "Andrii Chmut arrives in Denver (DL 1623)", "artist_group": "Bob James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL1623", "flight_number_icao": "DAL1623", "flightaware_link": "https://flightaware.com/live/flight/DAL1623", "drivers": "", "notes": ""}, {"date": "4/8 (Wednesday)", "date_sort": "2026-04-08", "time": "16:35", "type": "Arrival", "details": "Marvin Smith arrives in Denver (UA 2187)", "artist_group": "Orrin Evans", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA2187", "flight_number_icao": "UAL2187", "flightaware_link": "https://flightaware.com/live/flight/UAL2187", "drivers": "", "notes": ""}, {"date": "4/8 (Wednesday)", "date_sort": "2026-04-08", "time": "17:17", "type": "Arrival", "details": "Michael Palazzolo arrives in Denver (DL 2431)", "artist_group": "Bob James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL2431", "flight_number_icao": "DAL2431", "flightaware_link": "https://flightaware.com/live/flight/DAL2431", "drivers": "", "notes": ""}, {"date": "4/8 (Wednesday)", "date_sort": "2026-04-08", "time": "18:51", "type": "Arrival", "details": "Ava DiSimone arrives in Denver (DL 4123)", "artist_group": "Bob James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL4123", "flight_number_icao": "DAL4123", "flightaware_link": "https://flightaware.com/live/flight/DAL4123", "drivers": "", "notes": ""}, {"date": "4/8 (Wednesday)", "date_sort": "2026-04-08", "time": "19:57", "type": "Arrival", "details": "John Mahon arrives in Denver (DL 1586)", "artist_group": "Bob James", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL1586", "flight_number_icao": "DAL1586", "flightaware_link": "https://flightaware.com/live/flight/DAL1586", "drivers": "", "notes": ""}, {"date": "4/8 (Wednesday)", "date_sort": "2026-04-08", "time": "21:28", "type": "Arrival", "details": "Robert Hurst arrives in Denver (DL 314)", "artist_group": "Orrin Evans", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL314", "flight_number_icao": "DAL314", "flightaware_link": "https://flightaware.com/live/flight/DAL314", "drivers": "", "notes": ""}, {"date": "4/8 (Wednesday)", "date_sort": "2026-04-08", "time": "9:43", "type": "Arrival", "details": "Rodney Whitaker, Michael Dease, Randy Napoleon arrive in Denver", "artist_group": "Rodney Whitaker", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": null, "flight_number_icao": null, "flightaware_link": null, "drivers": "", "notes": ""}, {"date": "4/9 (Thursday)", "date_sort": "2026-04-09", "time": "0:09", "type": "Arrival", "details": "Orrin Evans arrives in Denver (DL 0956)", "artist_group": "Orrin Evans", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL0956", "flight_number_icao": "DAL0956", "flightaware_link": "https://flightaware.com/live/flight/DAL0956", "drivers": "", "notes": ""}, {"date": "4/9 (Thursday)", "date_sort": "2026-04-09", "time": "14:32", "type": "Arrival", "details": "Julius Rodriguez arrives in Denver (UA 2061)", "artist_group": "Carmen Lundy", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA2061", "flight_number_icao": "UAL2061", "flightaware_link": "https://flightaware.com/live/flight/UAL2061", "drivers": "", "notes": ""}, {"date": "4/9 (Thursday)", "date_sort": "2026-04-09", "time": "15:12", "type": "Arrival", "details": "Terreon Gully arrives in Denver (DL 840)", "artist_group": "John Beasley | Miles", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "DL840", "flight_number_icao": "DAL840", "flightaware_link": "https://flightaware.com/live/flight/DAL840", "drivers": "", "notes": ""}, {"date": "4/9 (Thursday)", "date_sort": "2026-04-09", "time": "16:27", "type": "Arrival", "details": "Carmen Lundy, Elizabeth Oei arrive in Denver (UA 360)", "artist_group": "Carmen Lundy", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA360", "flight_number_icao": "UAL360", "flightaware_link": "https://flightaware.com/live/flight/UAL360", "drivers": "", "notes": ""}, {"date": "4/9 (Thursday)", "date_sort": "2026-04-09", "time": "16:35", "type": "Arrival", "details": "Andrew Renfroe arrives in Denver (UA 2187)", "artist_group": "Carmen Lundy", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA2187", "flight_number_icao": "UAL2187", "flightaware_link": "https://flightaware.com/live/flight/UAL2187", "drivers": "", "notes": ""}, {"date": "4/9 (Thursday)", "date_sort": "2026-04-09", "time": "18:25", "type": "Arrival", "details": "Donovan Cheatham arrives in Denver (UA 2376)", "artist_group": "Carmen Lundy", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA2376", "flight_number_icao": "UAL2376", "flightaware_link": "https://flightaware.com/live/flight/UAL2376", "drivers": "", "notes": ""}, {"date": "4/9 (Thursday)", "date_sort": "2026-04-09", "time": "19:31", "type": "Arrival", "details": "Kenny Davis arrives in Denver (UA 1197)", "artist_group": "Carmen Lundy", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": "UA1197", "flight_number_icao": "UAL1197", "flightaware_link": "https://flightaware.com/live/flight/UAL1197", "drivers": "", "notes": ""}, {"date": "4/9 (Thursday)", "date_sort": "2026-04-09", "time": "6:10", "type": "Departure", "details": "Michael Dease departs Denver", "artist_group": "Rodney Whitaker", "location": "Denver Airport", "address": "8500 Pe\u00f1a Blvd, Denver, CO 80249", "flight_number": null, "flight_number_icao": null, "flightaware_link": null, "drivers": "", "notes": ""}];
+        let currentSortField = 'datetime';
+        let currentSortDirection = 'asc';
+        let currentSearchTerm = '';
+
+        function getFlightCardClass(type, details) {
+            if (details.toLowerCase().includes('train')) return 'train';
+            if (type === 'Arrival') return 'arrival';
+            if (type === 'Departure') return 'departure';
+            return '';
+        }
+
+        function getBadgeClass(type, details) {
+            if (details.toLowerCase().includes('train')) return 'train';
+            if (type === 'Arrival') return 'arrival';
+            if (type === 'Departure') return 'departure';
+            return '';
+        }
+
+        function sortFlights(flightsToSort, field, direction) {
+            const sorted = [...flightsToSort];
+            
+            sorted.sort((a, b) => {
+                let comparison = 0;
+                
+                switch(field) {
+                    case 'datetime':
+                        // Sort by date_sort first, then by time
+                        const dateA = a.date_sort || a.date;
+                        const dateB = b.date_sort || b.date;
+                        comparison = dateA.localeCompare(dateB);
+                        if (comparison === 0) {
+                            // If same date, sort by time
+                            const timeA = a.time || '00:00';
+                            const timeB = b.time || '00:00';
+                            comparison = timeA.localeCompare(timeB);
+                        }
+                        break;
+                    case 'artist':
+                        const artistA = (a.artist_group || '').toLowerCase();
+                        const artistB = (b.artist_group || '').toLowerCase();
+                        comparison = artistA.localeCompare(artistB);
+                        break;
+                    case 'type':
+                        const typeA = a.type || '';
+                        const typeB = b.type || '';
+                        comparison = typeA.localeCompare(typeB);
+                        break;
+                    case 'flight_number':
+                        const numA = (a.flight_number || '').toLowerCase();
+                        const numB = (b.flight_number || '').toLowerCase();
+                        comparison = numA.localeCompare(numB);
+                        break;
+                }
+                
+                return direction === 'asc' ? comparison : -comparison;
+            });
+            
+            return sorted;
+        }
+
+        function renderFlights(flightsToRender, searchTerm = '') {
+            const grid = document.getElementById('flightGrid');
+            const noResults = document.getElementById('noResults');
+
+            if (flightsToRender.length === 0) {
+                grid.innerHTML = '';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            noResults.style.display = 'none';
+
+            grid.innerHTML = flightsToRender.map(flight => {
+                const cardClass = getFlightCardClass(flight.type, flight.details);
+                const badgeClass = getBadgeClass(flight.type, flight.details);
+                
+                // Highlight search terms
+                let details = flight.details;
+                let artist = flight.artist_group;
+                let date = flight.date;
+                let location = flight.location;
+                
+                if (searchTerm) {
+                    const regex = new RegExp(`(${searchTerm})`, 'gi');
+                    details = details.replace(regex, '<span class="highlight">$1</span>');
+                    artist = artist.replace(regex, '<span class="highlight">$1</span>');
+                    date = date.replace(regex, '<span class="highlight">$1</span>');
+                    location = location.replace(regex, '<span class="highlight">$1</span>');
+                }
+
+                const flightAwareLink = flight.flightaware_link ? `
+                    <a href="${flight.flightaware_link}" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="flightaware-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                        Track on FlightAware
+                    </a>
+                ` : '';
+
+                const flightNumberBadge = flight.flight_number ? 
+                    `<span class="flight-number">${flight.flight_number}</span>` : '';
+
+                const driverInfo = flight.drivers && flight.drivers !== '-' ? 
+                    `<span>👤 ${flight.drivers}</span>` : '';
+
+                return `
+                    <div class="flight-card ${cardClass}">
+                        <div class="flight-header">
+                            <div>
+                                <div class="flight-date">${date}</div>
+                                <div class="flight-time">${flight.time}</div>
+                            </div>
+                            <span class="flight-type-badge ${badgeClass}">${flight.type}</span>
+                        </div>
+                        <div class="flight-details">${details}</div>
+                        ${flightNumberBadge}
+                        ${flightAwareLink}
+                        <div class="flight-meta">
+                            <span>📍 ${location}</span>
+                            ${driverInfo}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function getFilteredFlights() {
+            if (!currentSearchTerm) {
+                return flights;
+            }
+
+            const term = currentSearchTerm.toLowerCase();
+            return flights.filter(flight => {
+                return (
+                    (flight.details && flight.details.toLowerCase().includes(term)) ||
+                    (flight.artist_group && flight.artist_group.toLowerCase().includes(term)) ||
+                    (flight.date && flight.date.toLowerCase().includes(term)) ||
+                    (flight.location && flight.location.toLowerCase().includes(term)) ||
+                    (flight.flight_number && flight.flight_number.toLowerCase().includes(term)) ||
+                    (flight.drivers && flight.drivers.toLowerCase().includes(term))
+                );
+            });
+        }
+
+        function updateDisplay() {
+            let filtered = getFilteredFlights();
+            let sorted = sortFlights(filtered, currentSortField, currentSortDirection);
+            renderFlights(sorted, currentSearchTerm);
+        }
+
+        function updateStats() {
+            const arrivals = flights.filter(f => f.type === 'Arrival').length;
+            const departures = flights.filter(f => f.type === 'Departure').length;
+            
+            document.getElementById('total-flights').textContent = flights.length;
+            document.getElementById('total-arrivals').textContent = arrivals;
+            document.getElementById('total-departures').textContent = departures;
+        }
+
+        function updateSortDirectionButton() {
+            const btn = document.getElementById('sortDirectionBtn');
+            btn.textContent = currentSortDirection === 'asc' ? '↑ Ascending' : '↓ Descending';
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            currentSearchTerm = e.target.value;
+            updateDisplay();
+        });
+
+        document.getElementById('sortSelect').addEventListener('change', (e) => {
+            currentSortField = e.target.value;
+            updateDisplay();
+        });
+
+        document.getElementById('sortDirectionBtn').addEventListener('click', () => {
+            currentSortDirection = currentSortDirection === 'asc' ? 'desc' : 'asc';
+            updateSortDirectionButton();
+            updateDisplay();
+        });
+
+        // Initialize
+        updateStats();
+        updateSortDirectionButton();
+        updateDisplay();
+    </script>
+</body>
+</html>
