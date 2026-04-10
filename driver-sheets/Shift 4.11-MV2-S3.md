@@ -15,20 +15,18 @@ Dropoff Location: Warwick Hotel
 ### 11:20 PM: Transfer Jose James, Ebban Dorsey, Luther Allison, Kanoa Mendenhall, Jharis Yokley to hotel
 
 🚨 **[ SHARED TASK: Also assigned to  (Minivan 1) ]** 🚨
-- Cleo Parker Robinson Dance -> Embassy Suites Denver Downtown
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Embassy Suites Denver Downtown</a>
 ### 11:30 PM: Return Minivan to hotel
 
-- Embassy Suites Denver Downtown -> Warwick Hotel
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
 # Locations
 
 
-- Cleo Parker Robinson Dance — [2025 N Washington St. Denver, Colorado 80205](https://www.google.com/maps/search/?api=1&query=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205) Phone: 303-295-1759
+- Cleo Parker Robinson Dance — <a href="https://www.google.com/maps/search/?api=1&query=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">2025 N Washington St. Denver, Colorado 80205</a> Phone: 303-295-1759
 
-- Embassy Suites Denver Downtown — [1420 Stout Street, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202) Phone: 303-592-1000
+- Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
 
-- Warwick Hotel — [1776 N Grant St, Denver, CO 80203](https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203) Phone: 303-861-2000
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
 
 # Contacts

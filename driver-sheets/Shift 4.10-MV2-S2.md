@@ -15,41 +15,35 @@ Dropoff Location: Warwick Hotel
 ### 4:00 PM: Lobby Call: Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham, Elizabeth Oei for travel to venue
 
 🚨 **[ SHARED TASK: Also assigned to Matt Herzberger (Minivan 3) ]** 🚨
-- Embassy Suites Denver Downtown -> Cleo Parker Robinson Dance
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Cleo Parker Robinson Dance</a>
 ### 5:45 PM: Lobby Call: ELEW to Warwick
 
-- Crawford Hotel -> Warwick Hotel
- - Note: Tom will do 
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Crawford Hotel -&gt; Warwick Hotel</a> - Note: Tom will do 
 ### 6:15 PM: Lobby Call: Yoshi Kato, ELEW, Terreon Gully to venue
 
-- Warwick Hotel -> Newman Center
- - Note: Tom will do 
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Newman Center</a> - Note: Tom will do 
 ### 6:20 PM: Return minivan 2 to cleo
 
-- Newman Center -> Cleo Parker Robinson Dance
- - Note: Tom will do 
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210&destination=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">Newman Center -&gt; Cleo Parker Robinson Dance</a> - Note: Tom will do 
 ### 9:00 PM: Transfer Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham to hotel
 
 🚨 **[ SHARED TASK: Also assigned to Matt Herzberger (Minivan 3) ]** 🚨
-- Cleo Parker Robinson Dance -> Embassy Suites Denver Downtown
- - Note: Asset Drop Off (Towels, Stripe phone, Recording USB, Pull up signs, Guest / Comp list)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Embassy Suites Denver Downtown</a> - Note: Asset Drop Off (Towels, Stripe phone, Recording USB, Pull up signs, Guest / Comp list)
 ### 9:15 PM: Return Minivan to hotel
 
-- Embassy Suites Denver Downtown -> Warwick Hotel
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
 # Locations
 
 
-- Embassy Suites Denver Downtown — [1420 Stout Street, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202) Phone: 303-592-1000
+- Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
 
-- Cleo Parker Robinson Dance — [2025 N Washington St. Denver, Colorado 80205](https://www.google.com/maps/search/?api=1&query=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205) Phone: 303-295-1759
+- Cleo Parker Robinson Dance — <a href="https://www.google.com/maps/search/?api=1&query=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">2025 N Washington St. Denver, Colorado 80205</a> Phone: 303-295-1759
 
-- Crawford Hotel — [1701 Wynkoop St, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202) Phone: 720-460-3700
+- Crawford Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1701 Wynkoop St, Denver, CO 80202</a> Phone: 720-460-3700
 
-- Warwick Hotel — [1776 N Grant St, Denver, CO 80203](https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203) Phone: 303-861-2000
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
-- Newman Center — [2344 E Iliff Avenue, Denver, CO 80210](https://www.google.com/maps/search/?api=1&query=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210) Phone: 303-871-7720
+- Newman Center — <a href="https://www.google.com/maps/search/?api=1&query=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">2344 E Iliff Avenue, Denver, CO 80210</a> Phone: 303-871-7720
 
 
 # Contacts

@@ -15,42 +15,36 @@ Dropoff Location: Embassy Suites Denver Downtown
 ### 2:10 PM: Lobby Call: John Beasley, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel to venue
 
 🚨 **[ SHARED TASK: Also assigned to Arturo Gomez (Minivan 1) ]** 🚨
-- Warwick Hotel -> Newman Center
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Newman Center</a>
 ### 4:00 PM: Lobby Call: Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham, Elizabeth Oei for travel to venue
 
 🚨 **[ SHARED TASK: Also assigned to Colin Swihart (Minivan 2) ]** 🚨
-- Embassy Suites Denver Downtown -> Cleo Parker Robinson Dance
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Cleo Parker Robinson Dance</a>
 ### 5:00 PM: Transfer Terreon Gully to hotel
 
-- Newman Center -> Warwick Hotel
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Newman Center -&gt; Warwick Hotel</a>
 ### 8:00 PM: Transfer Gary Versace to hotel
 
-- Denver Airport -> Warwick Hotel
- - Flight: UA 599 → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a> - Flight: <a href="https://flightaware.com/live/flight/UAL599" target="_blank" rel="noopener noreferrer">UA 599</a> → Door 610 (West)
 ### 9:00 PM: Transfer Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham to hotel
 
 🚨 **[ SHARED TASK: Also assigned to Colin Swihart (Minivan 2) ]** 🚨
-- Cleo Parker Robinson Dance -> Embassy Suites Denver Downtown
- - Note: Asset Drop Off (Towels, Stripe phone, Recording USB, Pull up signs, Guest / Comp list)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Embassy Suites Denver Downtown</a> - Note: Asset Drop Off (Towels, Stripe phone, Recording USB, Pull up signs, Guest / Comp list)
 ### 9:20 PM: Return Minivan to hotel
 
-- Warwick Hotel -> Embassy Suites Denver Downtown
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Embassy Suites Denver Downtown</a>
 # Locations
 
 
-- Warwick Hotel — [1776 N Grant St, Denver, CO 80203](https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203) Phone: 303-861-2000
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
-- Newman Center — [2344 E Iliff Avenue, Denver, CO 80210](https://www.google.com/maps/search/?api=1&query=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210) Phone: 303-871-7720
+- Newman Center — <a href="https://www.google.com/maps/search/?api=1&query=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">2344 E Iliff Avenue, Denver, CO 80210</a> Phone: 303-871-7720
 
-- Embassy Suites Denver Downtown — [1420 Stout Street, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202) Phone: 303-592-1000
+- Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
 
-- Cleo Parker Robinson Dance — [2025 N Washington St. Denver, Colorado 80205](https://www.google.com/maps/search/?api=1&query=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205) Phone: 303-295-1759
+- Cleo Parker Robinson Dance — <a href="https://www.google.com/maps/search/?api=1&query=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">2025 N Washington St. Denver, Colorado 80205</a> Phone: 303-295-1759
 
-- Denver Airport — [8500 Peña Blvd, Denver, CO 80249](https://www.google.com/maps/search/?api=1&query=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249)
+- Denver Airport — <a href="https://www.google.com/maps/search/?api=1&query=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">8500 Peña Blvd, Denver, CO 80249</a>
 
 # Contacts
 

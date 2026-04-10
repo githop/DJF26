@@ -14,14 +14,13 @@ Dropoff Location: Warwick Hotel
 
 ### 8:45 PM: Transfer Ingrid Jensen, Gary Versace, Jon Wikan, Amina Scott to hotel
 
-- The Muse Performance Space -> Warwick Hotel
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=200%20E%20South%20Boulder%20Rd%2C%20Lafayette%2C%20CO%2080026&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">The Muse Performance Space -&gt; Warwick Hotel</a>
 # Locations
 
 
-- The Muse Performance Space — [200 E South Boulder Rd, Lafayette, CO 80026](https://www.google.com/maps/search/?api=1&query=200%20E%20South%20Boulder%20Rd%2C%20Lafayette%2C%20CO%2080026) Phone: 720-352-4327
+- The Muse Performance Space — <a href="https://www.google.com/maps/search/?api=1&query=200%20E%20South%20Boulder%20Rd%2C%20Lafayette%2C%20CO%2080026" target="_blank" rel="noopener noreferrer">200 E South Boulder Rd, Lafayette, CO 80026</a> Phone: 720-352-4327
 
-- Warwick Hotel — [1776 N Grant St, Denver, CO 80203](https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203) Phone: 303-861-2000
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
 
 # Contacts

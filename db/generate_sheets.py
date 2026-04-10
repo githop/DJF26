@@ -44,6 +44,17 @@ AIRPORT_DOORS = {
     "DL": "Door 608 (West)",  # Delta Airlines
 }
 
+# IATA (2-letter) to ICAO (3-letter) airline code mapping
+IATA_TO_ICAO = {
+    "UA": "UAL",  # United Airlines
+    "DL": "DAL",  # Delta Air Lines
+    "AS": "ASA",  # Alaska Airlines
+    "WN": "SWA",  # Southwest Airlines
+    "AA": "AAL",  # American Airlines
+    "B6": "JBU",  # JetBlue
+    "F9": "FFT",  # Frontier Airlines
+}
+
 
 # ---------------------------------------------------------------------------
 # Date normalisation
@@ -272,6 +283,23 @@ def get_door_for_flight(flight_num: str) -> str:
     if match:
         airline_code = match.group(1)
         return AIRPORT_DOORS.get(airline_code, "")
+    return ""
+
+
+def get_flight_url(flight_num: str) -> str:
+    """
+    Returns the FlightAware URL for the given flight number.
+    e.g. "UA 2187" -> "https://flightaware.com/live/flight/UAL2187"
+    """
+    if not flight_num:
+        return ""
+
+    match = re.match(r"^([A-Z]{2})\s*(\d+)", flight_num)
+    if match:
+        iata_code = match.group(1)
+        number = match.group(2)
+        icao_code = IATA_TO_ICAO.get(iata_code, iata_code)
+        return f"https://flightaware.com/live/flight/{icao_code}{number}"
     return ""
 
 
@@ -651,6 +679,15 @@ def build_sheet(
         )
         door = get_door_for_flight(flight) if flight else ""
 
+        origin_name = t["Location"] or ""
+        dest_name = t["Location Destination"] or ""
+        origin_query = address_lookup.get(origin_name, {}).get("address") or origin_name
+        dest_query = address_lookup.get(dest_name, {}).get("address") or dest_name
+
+        directions_link = ""
+        if origin_query and dest_query:
+            directions_link = f"https://www.google.com/maps/dir/?api=1&origin={urllib.parse.quote(origin_query)}&destination={urllib.parse.quote(dest_query)}"
+
         # Generate pickup messages for airport pickups (when location is airport = pickup)
         if is_airport_task and t["Location"] == AIRPORT_LOCATION:
             passenger_names = extract_passenger_names(t["Details"] or "")
@@ -716,8 +753,10 @@ def build_sheet(
                 "notes": t["Notes"] or "",
                 "is_airport_pickup": is_airport_task,
                 "flight": flight,
+                "flight_url": get_flight_url(flight) if flight else "",
                 "door": door,
                 "shared_with": shared_with,
+                "directions_link": directions_link,
             }
         )
 

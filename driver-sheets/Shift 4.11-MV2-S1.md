@@ -15,24 +15,21 @@ Dropoff Location: Warwick Hotel
 ### 7:40 AM: Lobby Call: John Beasley, Terreon Gully, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel travel to airport
 
 🚨 **[ SHARED TASK: Also assigned to Arturo Gomez (Minivan 1), Unknown Driver (Don's Car) ]** 🚨
-- Warwick Hotel -> Denver Airport
- - Flight: UA 361 → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Denver Airport</a> - Flight: <a href="https://flightaware.com/live/flight/UAL361" target="_blank" rel="noopener noreferrer">UA 361</a> → Door 610 (West)
 ### 10:45 AM: Transfer Jose James, Ebban Dorsey, Luther Allison, Kanoa Mendenhall, Jharis Yokley to hotel
 
 🚨 **[ SHARED TASK: Also assigned to Arturo Gomez (Minivan 1) ]** 🚨
-- Denver Airport -> Embassy Suites Denver Downtown
- - Flight: UA 690 → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/UAL690" target="_blank" rel="noopener noreferrer">UA 690</a> → Door 610 (West)
 ### 11:30 AM: Return Minivan to hotel
 
-- Embassy Suites Denver Downtown -> Warwick Hotel
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
 # Locations
 
 
-- Warwick Hotel — [1776 N Grant St, Denver, CO 80203](https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203) Phone: 303-861-2000
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
-- Denver Airport — [8500 Peña Blvd, Denver, CO 80249](https://www.google.com/maps/search/?api=1&query=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249)
-- Embassy Suites Denver Downtown — [1420 Stout Street, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202) Phone: 303-592-1000
+- Denver Airport — <a href="https://www.google.com/maps/search/?api=1&query=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">8500 Peña Blvd, Denver, CO 80249</a>
+- Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
 
 
 # Contacts

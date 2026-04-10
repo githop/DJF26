@@ -18,8 +18,8 @@ Dropoff Location: {{ dropoff_location }}
 {% if task.shared_with %}
 🚨 **[ SHARED TASK: Also assigned to {{ task.shared_with | join(', ') }} ]** 🚨
 {% endif %}
-- {{ task.location }} -> {{ task.destination }}
-  {% if task.is_airport_pickup %} - Flight: {{ task.flight if task.flight else "TBD" }}{% if task.door %} → {{ task.door }}{% endif %}{% endif %}
+- {% if task.directions_link %}<a href="{{ task.directions_link }}" target="_blank" rel="noopener noreferrer">{{ task.location }} -&gt; {{ task.destination }}</a>{% else %}{{ task.location }} -> {{ task.destination }}{% endif %}
+  {% if task.is_airport_pickup %} - Flight: {% if task.flight and task.flight_url %}<a href="{{ task.flight_url }}" target="_blank" rel="noopener noreferrer">{{ task.flight }}</a>{% else %}{{ task.flight if task.flight else "TBD" }}{% endif %}{% if task.door %} → {{ task.door }}{% endif %}{% endif %}
   {% if task.notes %} - Note: {{ task.notes }}{% endif %}
   {% endfor %}
 
@@ -27,7 +27,7 @@ Dropoff Location: {{ dropoff_location }}
 
 {% for loc in locations %}
 
-- {{ loc.name }}{% if loc.address %} — [{{ loc.address }}]({{ loc.maps_link }}){% endif %}
+- {{ loc.name }}{% if loc.address %} — <a href="{{ loc.maps_link }}" target="_blank" rel="noopener noreferrer">{{ loc.address }}</a>{% endif %}
   {% if loc.phone %} Phone: {{ loc.phone }}
   {% endif %}
   {% endfor %}

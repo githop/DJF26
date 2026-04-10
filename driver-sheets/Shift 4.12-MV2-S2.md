@@ -14,20 +14,18 @@ Dropoff Location: Warwick Hotel
 
 ### 9:00 PM: Return Minivan to Dazzle
 
-- Mizel Arts & Culture Center at the JCC Denver -> Dazzle Jazz Club
- - Note: Adi will take home after party and return car Mon.
+- <a href="https://www.google.com/maps/dir/?api=1&origin=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Mizel Arts & Culture Center at the JCC Denver -&gt; Dazzle Jazz Club</a> - Note: Adi will take home after party and return car Mon.
 ### 9:00 PM: Transfer Fred Hersch, Drew Gress, Johnathan Blake to hotel
 
-- Mizel Arts & Culture Center at the JCC Denver -> Hotel Clio
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246&destination=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206" target="_blank" rel="noopener noreferrer">Mizel Arts & Culture Center at the JCC Denver -&gt; Hotel Clio</a>
 # Locations
 
 
-- Mizel Arts & Culture Center at the JCC Denver — [350 S Dahlia St, Denver, CO 80246](https://www.google.com/maps/search/?api=1&query=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246) Phone: 303-399-2660
+- Mizel Arts & Culture Center at the JCC Denver — <a href="https://www.google.com/maps/search/?api=1&query=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246" target="_blank" rel="noopener noreferrer">350 S Dahlia St, Denver, CO 80246</a> Phone: 303-399-2660
 
-- Dazzle Jazz Club — [1080 14th Street, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202) Phone: 303-839-5100
+- Dazzle Jazz Club — <a href="https://www.google.com/maps/search/?api=1&query=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1080 14th Street, Denver, CO 80202</a> Phone: 303-839-5100
 
-- Hotel Clio — [150 Clayton Ln, Denver, CO 80206](https://www.google.com/maps/search/?api=1&query=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206) Phone: 303-316-2700
+- Hotel Clio — <a href="https://www.google.com/maps/search/?api=1&query=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206" target="_blank" rel="noopener noreferrer">150 Clayton Ln, Denver, CO 80206</a> Phone: 303-316-2700
 
 
 # Contacts

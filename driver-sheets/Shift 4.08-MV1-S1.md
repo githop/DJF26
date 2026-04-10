@@ -14,39 +14,33 @@ Dropoff Location: Warwick Hotel
 
 ### 10:30 AM: Transfer Rodney Whitaker, Michael Dease, Randy Napoleon to hotel
 
-- Denver Airport -> Embassy Suites Denver Downtown
- - Flight: DL 1113 → Door 608 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/DAL1113" target="_blank" rel="noopener noreferrer">DL 1113</a> → Door 608 (West)
 ### 1:45 PM: Lobby Call: Rodney Whitaker travel to Radio Interview
 
-- Dazzle Jazz Club -> KUVO
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202&destination=2101%20Arapahoe%20St%2C%20Unit%201%2C%20Denver%2C%20CO%2080205" target="_blank" rel="noopener noreferrer">Dazzle Jazz Club -&gt; KUVO</a>
 ### 2:20 PM: Lobby Call: Randy Napoleon to venue
 
-- Embassy Suites Denver Downtown -> Dazzle Jazz Club
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Dazzle Jazz Club</a>
 ### 2:35 PM: Lobby Call: Rodney Whitaker
 
-- KUVO -> Dazzle Jazz Club
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2101%20Arapahoe%20St%2C%20Unit%201%2C%20Denver%2C%20CO%2080205&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">KUVO -&gt; Dazzle Jazz Club</a>
 ### 3:15 PM: Transfer Yoshi Kato and John Mahon to hotel
 
-- Denver Airport -> Embassy Suites Denver Downtown
- - Flight: UA 1604 → Door 610 (West) - Note: Floor 5 West Side
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/UAL1604" target="_blank" rel="noopener noreferrer">UA 1604</a> → Door 610 (West) - Note: Floor 5 West Side
 ### 3:45 PM: Return Minivan to hotel
 
-- Dazzle Jazz Club -> Warwick Hotel
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Dazzle Jazz Club -&gt; Warwick Hotel</a>
 # Locations
 
 
-- Denver Airport — [8500 Peña Blvd, Denver, CO 80249](https://www.google.com/maps/search/?api=1&query=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249)
-- Embassy Suites Denver Downtown — [1420 Stout Street, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202) Phone: 303-592-1000
+- Denver Airport — <a href="https://www.google.com/maps/search/?api=1&query=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">8500 Peña Blvd, Denver, CO 80249</a>
+- Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
 
-- Dazzle Jazz Club — [1080 14th Street, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202) Phone: 303-839-5100
+- Dazzle Jazz Club — <a href="https://www.google.com/maps/search/?api=1&query=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1080 14th Street, Denver, CO 80202</a> Phone: 303-839-5100
 
-- KUVO — [2101 Arapahoe St, Unit 1, Denver, CO 80205](https://www.google.com/maps/search/?api=1&query=2101%20Arapahoe%20St%2C%20Unit%201%2C%20Denver%2C%20CO%2080205) Phone: 303-480-9272
+- KUVO — <a href="https://www.google.com/maps/search/?api=1&query=2101%20Arapahoe%20St%2C%20Unit%201%2C%20Denver%2C%20CO%2080205" target="_blank" rel="noopener noreferrer">2101 Arapahoe St, Unit 1, Denver, CO 80205</a> Phone: 303-480-9272
 
-- Warwick Hotel — [1776 N Grant St, Denver, CO 80203](https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203) Phone: 303-861-2000
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
 
 # Contacts

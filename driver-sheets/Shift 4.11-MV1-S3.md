@@ -14,29 +14,26 @@ Dropoff Location: Warwick Hotel
 
 ### 6:15 PM: Return Minivan to hotel
 
-- Cleo Parker Robinson Dance -> Warwick Hotel
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Warwick Hotel</a>
 ### 6:50 PM: Transfer ELEW to hotel
 
-- Classic Piano of Denver -> Crawford Hotel
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210&destination=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Classic Piano of Denver -&gt; Crawford Hotel</a>
 ### 11:20 PM: Transfer Jose James, Ebban Dorsey, Luther Allison, Kanoa Mendenhall, Jharis Yokley to hotel
 
 🚨 **[ SHARED TASK: Also assigned to  (Minivan 2) ]** 🚨
-- Cleo Parker Robinson Dance -> Embassy Suites Denver Downtown
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Embassy Suites Denver Downtown</a>
 # Locations
 
 
-- Cleo Parker Robinson Dance — [2025 N Washington St. Denver, Colorado 80205](https://www.google.com/maps/search/?api=1&query=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205) Phone: 303-295-1759
+- Cleo Parker Robinson Dance — <a href="https://www.google.com/maps/search/?api=1&query=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">2025 N Washington St. Denver, Colorado 80205</a> Phone: 303-295-1759
 
-- Warwick Hotel — [1776 N Grant St, Denver, CO 80203](https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203) Phone: 303-861-2000
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
-- Classic Piano of Denver — [1332 S Broadway, Denver, CO 80210](https://www.google.com/maps/search/?api=1&query=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210) Phone: 303-777-2636
+- Classic Piano of Denver — <a href="https://www.google.com/maps/search/?api=1&query=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">1332 S Broadway, Denver, CO 80210</a> Phone: 303-777-2636
 
-- Crawford Hotel — [1701 Wynkoop St, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202) Phone: 720-460-3700
+- Crawford Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1701 Wynkoop St, Denver, CO 80202</a> Phone: 720-460-3700
 
-- Embassy Suites Denver Downtown — [1420 Stout Street, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202) Phone: 303-592-1000
+- Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
 
 
 # Contacts

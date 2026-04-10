@@ -14,40 +14,34 @@ Dropoff Location: Warwick Hotel
 
 ### 2:15 PM: Lobby Call: Randy Napoleon travels to education venue
 
-- Embassy Suites Denver Downtown -> MSU Denver Music: Kalamath Building
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1150%2010th%20Street%20Plaza%2C%20Denver%20CO%2080204" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; MSU Denver Music: Kalamath Building</a>
 ### 2:30 PM: Transfer Rodney Whitaker to hotel
 
-- MSU Denver Music: Kalamath Building -> Embassy Suites Denver Downtown
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1150%2010th%20Street%20Plaza%2C%20Denver%20CO%2080204&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">MSU Denver Music: Kalamath Building -&gt; Embassy Suites Denver Downtown</a>
 ### 3:50 PM: Transfer Randy Napoleon to hotel
 
-- MSU Denver Music: Kalamath Building -> Embassy Suites Denver Downtown
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1150%2010th%20Street%20Plaza%2C%20Denver%20CO%2080204&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">MSU Denver Music: Kalamath Building -&gt; Embassy Suites Denver Downtown</a>
 ### 4:45 PM: Lobby Call: Orrin Evans, Robert Hurst, Marvin Smith
 
-- Embassy Suites Denver Downtown -> Dazzle Jazz Club
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Dazzle Jazz Club</a>
 ### 5:00 PM: Asset Drop Off (Stripe Phone, ticketing tech)
 
-- Classic Piano of Denver -> Dazzle Jazz Club
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Classic Piano of Denver -&gt; Dazzle Jazz Club</a>
 ### 5:45 PM: Return Minivan to hotel
 
-- Embassy Suites Denver Downtown -> Warwick Hotel
-
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
 # Locations
 
 
-- Embassy Suites Denver Downtown — [1420 Stout Street, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202) Phone: 303-592-1000
+- Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
 
-- MSU Denver Music: Kalamath Building — [1150 10th Street Plaza, Denver CO 80204](https://www.google.com/maps/search/?api=1&query=1150%2010th%20Street%20Plaza%2C%20Denver%20CO%2080204) Phone: 303-615-0388
+- MSU Denver Music: Kalamath Building — <a href="https://www.google.com/maps/search/?api=1&query=1150%2010th%20Street%20Plaza%2C%20Denver%20CO%2080204" target="_blank" rel="noopener noreferrer">1150 10th Street Plaza, Denver CO 80204</a> Phone: 303-615-0388
 
-- Dazzle Jazz Club — [1080 14th Street, Denver, CO 80202](https://www.google.com/maps/search/?api=1&query=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202) Phone: 303-839-5100
+- Dazzle Jazz Club — <a href="https://www.google.com/maps/search/?api=1&query=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1080 14th Street, Denver, CO 80202</a> Phone: 303-839-5100
 
-- Classic Piano of Denver — [1332 S Broadway, Denver, CO 80210](https://www.google.com/maps/search/?api=1&query=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210) Phone: 303-777-2636
+- Classic Piano of Denver — <a href="https://www.google.com/maps/search/?api=1&query=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">1332 S Broadway, Denver, CO 80210</a> Phone: 303-777-2636
 
-- Warwick Hotel — [1776 N Grant St, Denver, CO 80203](https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203) Phone: 303-861-2000
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
 
 # Contacts
