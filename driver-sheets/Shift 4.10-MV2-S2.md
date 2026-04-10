@@ -14,24 +14,34 @@ Dropoff Location: Warwick Hotel
 
 ### 4:00 PM: Lobby Call: Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham, Elizabeth Oei for travel to venue
 
-🚨 **[ SHARED TASK: Also assigned to Matt Herzberger (Minivan 3) ]** 🚨
+- 🚨 **[ SHARED TASK: Also assigned to Matt Herzberger (Minivan 3) ]** 🚨
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Cleo Parker Robinson Dance</a>
+
 ### 5:45 PM: Lobby Call: ELEW to Warwick
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Crawford Hotel -&gt; Warwick Hotel</a> - Note: Tom will do 
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Crawford Hotel -&gt; Warwick Hotel</a>
+- Note: Tom will do 
+
 ### 6:15 PM: Lobby Call: Yoshi Kato, ELEW, Terreon Gully to venue
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Newman Center</a> - Note: Tom will do 
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Newman Center</a>
+- Note: Tom will do 
+
 ### 6:20 PM: Return minivan 2 to cleo
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210&destination=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">Newman Center -&gt; Cleo Parker Robinson Dance</a> - Note: Tom will do 
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210&destination=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">Newman Center -&gt; Cleo Parker Robinson Dance</a>
+- Note: Tom will do 
+
 ### 9:00 PM: Transfer Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham to hotel
 
-🚨 **[ SHARED TASK: Also assigned to Matt Herzberger (Minivan 3) ]** 🚨
-- <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Embassy Suites Denver Downtown</a> - Note: Asset Drop Off (Towels, Stripe phone, Recording USB, Pull up signs, Guest / Comp list)
+- 🚨 **[ SHARED TASK: Also assigned to Matt Herzberger (Minivan 3) ]** 🚨
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Embassy Suites Denver Downtown</a>
+- Note: Asset Drop Off (Towels, Stripe phone, Recording USB, Pull up signs, Guest / Comp list)
+
 ### 9:15 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
+
 # Locations
 
 

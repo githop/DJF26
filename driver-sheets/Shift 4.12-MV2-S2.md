@@ -14,10 +14,13 @@ Dropoff Location: Warwick Hotel
 
 ### 9:00 PM: Return Minivan to Dazzle
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Mizel Arts & Culture Center at the JCC Denver -&gt; Dazzle Jazz Club</a> - Note: Adi will take home after party and return car Mon.
+- <a href="https://www.google.com/maps/dir/?api=1&origin=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Mizel Arts & Culture Center at the JCC Denver -&gt; Dazzle Jazz Club</a>
+- Note: Adi will take home after party and return car Mon.
+
 ### 9:00 PM: Transfer Fred Hersch, Drew Gress, Johnathan Blake to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246&destination=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206" target="_blank" rel="noopener noreferrer">Mizel Arts & Culture Center at the JCC Denver -&gt; Hotel Clio</a>
+
 # Locations
 
 

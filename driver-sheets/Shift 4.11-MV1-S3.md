@@ -15,13 +15,16 @@ Dropoff Location: Warwick Hotel
 ### 6:15 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Warwick Hotel</a>
+
 ### 6:50 PM: Transfer ELEW to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210&destination=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Classic Piano of Denver -&gt; Crawford Hotel</a>
+
 ### 11:20 PM: Transfer Jose James, Ebban Dorsey, Luther Allison, Kanoa Mendenhall, Jharis Yokley to hotel
 
-🚨 **[ SHARED TASK: Also assigned to  (Minivan 2) ]** 🚨
+- 🚨 **[ SHARED TASK: Also assigned to  (Minivan 2) ]** 🚨
 - <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Embassy Suites Denver Downtown</a>
+
 # Locations
 
 

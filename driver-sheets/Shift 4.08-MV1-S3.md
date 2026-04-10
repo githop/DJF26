@@ -14,13 +14,16 @@ Dropoff Location: Warwick Hotel
 
 ### 10:15 PM: Transfer Robert Hurst to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/DAL314" target="_blank" rel="noopener noreferrer">DL 314</a> → Door 608 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a>
+- Flight: <a href="https://flightaware.com/live/flight/DAL314" target="_blank" rel="noopener noreferrer">DL 314</a> → Door 608 (West)
 ### 12:50 AM: Transfer Orrin Evans to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: TBD
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a>
+- Flight: TBD
 ### 1:30 AM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
+
 # Locations
 
 

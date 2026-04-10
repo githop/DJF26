@@ -14,22 +14,29 @@ Dropoff Location: Warwick Hotel
 
 ### 10:30 AM: Transfer Rodney Whitaker, Michael Dease, Randy Napoleon to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/DAL1113" target="_blank" rel="noopener noreferrer">DL 1113</a> → Door 608 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a>
+- Flight: <a href="https://flightaware.com/live/flight/DAL1113" target="_blank" rel="noopener noreferrer">DL 1113</a> → Door 608 (West)
 ### 1:45 PM: Lobby Call: Rodney Whitaker travel to Radio Interview
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202&destination=2101%20Arapahoe%20St%2C%20Unit%201%2C%20Denver%2C%20CO%2080205" target="_blank" rel="noopener noreferrer">Dazzle Jazz Club -&gt; KUVO</a>
+
 ### 2:20 PM: Lobby Call: Randy Napoleon to venue
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Dazzle Jazz Club</a>
+
 ### 2:35 PM: Lobby Call: Rodney Whitaker
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=2101%20Arapahoe%20St%2C%20Unit%201%2C%20Denver%2C%20CO%2080205&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">KUVO -&gt; Dazzle Jazz Club</a>
+
 ### 3:15 PM: Transfer Yoshi Kato and John Mahon to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/UAL1604" target="_blank" rel="noopener noreferrer">UA 1604</a> → Door 610 (West) - Note: Floor 5 West Side
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL1604" target="_blank" rel="noopener noreferrer">UA 1604</a> → Door 610 (West)- Note: Floor 5 West Side
+
 ### 3:45 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Dazzle Jazz Club -&gt; Warwick Hotel</a>
+
 # Locations
 
 

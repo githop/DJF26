@@ -14,13 +14,18 @@ Dropoff Location: Embassy Suites Denver Downtown
 
 ### 6:15 PM: Asset Pickup (Banner, 4x Towels, Stripe Processor)
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Classic Piano of Denver -&gt; Warwick Hotel</a> - Note: Return 4 towels, we left 2 there last night
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Classic Piano of Denver -&gt; Warwick Hotel</a>
+- Note: Return 4 towels, we left 2 there last night
+
 ### 8:00 PM: Transfer Kenny Davis to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/UAL1197" target="_blank" rel="noopener noreferrer">UA 1197</a> → Door 610 (West) - Note: * If there is any chance that Kenny Davis pick up is going to be late, we need to activate Minivan 3. 
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL1197" target="_blank" rel="noopener noreferrer">UA 1197</a> → Door 610 (West)- Note: * If there is any chance that Kenny Davis pick up is going to be late, we need to activate Minivan 3. 
+
 ### 8:45 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
+
 # Locations
 
 

@@ -14,20 +14,27 @@ Dropoff Location: Warwick Hotel
 
 ### 5:45 PM: Transfer Ingrid Jensen to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a> - Flight: <a href="https://flightaware.com/live/flight/DAL2431" target="_blank" rel="noopener noreferrer">DL 2431</a> → Door 608 (West) - Note: If Ingrid arrives early, and there is enough time for her to check in to the Warwick, do that first. But if it's tight, just go straight to KUVO. 
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a>
+- Flight: <a href="https://flightaware.com/live/flight/DAL2431" target="_blank" rel="noopener noreferrer">DL 2431</a> → Door 608 (West)- Note: If Ingrid arrives early, and there is enough time for her to check in to the Warwick, do that first. But if it's tight, just go straight to KUVO. 
+
 ### 9:00 PM: Transfer John Beasley, Terreon Gully, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel, Yoshi Kato, ELEW to hotel
 
-🚨 **[ SHARED TASK: Also assigned to Unknown Driver (Nick's Car), Unknown Driver (Don's Car) ]** 🚨
-- <a href="https://www.google.com/maps/dir/?api=1&origin=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Newman Center -&gt; Warwick Hotel</a> - Note: * Nick to take Kurt +1. Don to take John +1, Asset pick up (Pull up, Merch, USB)
+- 🚨 **[ SHARED TASK: Also assigned to Unknown Driver (Nick's Car), Unknown Driver (Don's Car) ]** 🚨
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Newman Center -&gt; Warwick Hotel</a>
+- Note: * Nick to take Kurt +1. Don to take John +1, Asset pick up (Pull up, Merch, USB)
+
 ### 9:20 PM: Transer Yoshi Kato to venue
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Dazzle Jazz Club</a>
+
 ### 10:45 PM: Transfer Jon Wikan to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a> - Flight: <a href="https://flightaware.com/live/flight/UAL582" target="_blank" rel="noopener noreferrer">UA 582</a> → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL582" target="_blank" rel="noopener noreferrer">UA 582</a> → Door 610 (West)
 ### 11:30 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
+
 # Locations
 
 

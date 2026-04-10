@@ -14,20 +14,26 @@ Dropoff Location: Warwick Hotel
 
 ### 4:50 PM: Transfer Carmen Lundy, Elizabeth Oei, Andrew Renfroe to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/UAL360" target="_blank" rel="noopener noreferrer">UA 360</a> → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL360" target="_blank" rel="noopener noreferrer">UA 360</a> → Door 610 (West)
 ### 6:50 PM: Lobby Call: Carmen Lundy and Elisabeth Oei to radio interview
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=2101%20Arapahoe%20St%2C%20Unit%201%2C%20Denver%2C%20CO%2080205" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; KUVO</a> - Note: Escort Carmen and Elisabeth into building. Call Studio Line (303-291-0666) on arrival. Any issues, call Paul Donovan (303-349-9304). Stay at KUVO until they're done.
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=2101%20Arapahoe%20St%2C%20Unit%201%2C%20Denver%2C%20CO%2080205" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; KUVO</a>
+- Note: Escort Carmen and Elisabeth into building. Call Studio Line (303-291-0666) on arrival. Any issues, call Paul Donovan (303-349-9304). Stay at KUVO until they're done.
+
 ### 7:30 PM: Transfer Carmen Lundy and Elisabeth Oei to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=2101%20Arapahoe%20St%2C%20Unit%201%2C%20Denver%2C%20CO%2080205&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">KUVO -&gt; Embassy Suites Denver Downtown</a>
+
 ### 9:00 PM: Transfer Bob James, Andrii Chmut, Michael Palazzolo, John Mahon, Ava DiSimone, Blaize Oswald, Yoshi Kato to hotel
 
-🚨 **[ SHARED TASK: Also assigned to Nathan Roche (Minivan 1) ]** 🚨
+- 🚨 **[ SHARED TASK: Also assigned to Nathan Roche (Minivan 1) ]** 🚨
 - <a href="https://www.google.com/maps/dir/?api=1&origin=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Newman Center -&gt; Embassy Suites Denver Downtown</a>
+
 ### 9:15 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
+
 # Locations
 
 

@@ -14,19 +14,25 @@ Dropoff Location: Warwick Hotel
 
 ### 7:10 AM: Lobby Call: John Mahon to travel to airport
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a> - Flight: <a href="https://flightaware.com/live/flight/UAL1521" target="_blank" rel="noopener noreferrer">UA 1521</a> → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL1521" target="_blank" rel="noopener noreferrer">UA 1521</a> → Door 610 (West)
 ### 9:30 AM: Lobby Call: Andrii Chmut to travel to airport
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a> - Flight: <a href="https://flightaware.com/live/flight/DAL952" target="_blank" rel="noopener noreferrer">DL 952</a> → Door 608 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a>
+- Flight: <a href="https://flightaware.com/live/flight/DAL952" target="_blank" rel="noopener noreferrer">DL 952</a> → Door 608 (West)
 ### 10:30 AM: Refuel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Warwick Hotel</a>
+
 ### 1:15 PM: Transfer Marquis Hill to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a> - Flight: <a href="https://flightaware.com/live/flight/UAL1803" target="_blank" rel="noopener noreferrer">UA 1803</a> → Door 610 (West) - Note: If delayed, has to go to straight to venue
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL1803" target="_blank" rel="noopener noreferrer">UA 1803</a> → Door 610 (West)- Note: If delayed, has to go to straight to venue
+
 ### 2:00 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Warwick Hotel</a>
+
 # Locations
 
 

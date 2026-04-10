@@ -14,14 +14,17 @@ Dropoff Location: Embassy Suites Denver Downtown
 
 ### 11:10 AM: Lobby Call: Carmen Lundy, Julius Rodriguez, Andrew Renfroe, Donovan Cheatham, Elizabeth Oei to airport
 
-🚨 **[ SHARED TASK: Also assigned to Unknown Driver (Nick's Car) ]** 🚨
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a> - Flight: <a href="https://flightaware.com/live/flight/UAL1812" target="_blank" rel="noopener noreferrer">UA 1812</a> → Door 610 (West)
+- 🚨 **[ SHARED TASK: Also assigned to Unknown Driver (Nick's Car) ]** 🚨
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL1812" target="_blank" rel="noopener noreferrer">UA 1812</a> → Door 610 (West)
 ### 12:30 PM: Transfer Amina Scott to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a> - Flight: <a href="https://flightaware.com/live/flight/SWA3780" target="_blank" rel="noopener noreferrer">WN 3780</a> → Door 609 (East)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a>
+- Flight: <a href="https://flightaware.com/live/flight/SWA3780" target="_blank" rel="noopener noreferrer">WN 3780</a> → Door 609 (East)
 ### 1:45 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Embassy Suites Denver Downtown</a>
+
 # Locations
 
 

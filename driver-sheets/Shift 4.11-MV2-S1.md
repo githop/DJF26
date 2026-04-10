@@ -14,15 +14,18 @@ Dropoff Location: Warwick Hotel
 
 ### 7:40 AM: Lobby Call: John Beasley, Terreon Gully, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel travel to airport
 
-🚨 **[ SHARED TASK: Also assigned to Arturo Gomez (Minivan 1), Unknown Driver (Don's Car) ]** 🚨
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Denver Airport</a> - Flight: <a href="https://flightaware.com/live/flight/UAL361" target="_blank" rel="noopener noreferrer">UA 361</a> → Door 610 (West)
+- 🚨 **[ SHARED TASK: Also assigned to Arturo Gomez (Minivan 1), Unknown Driver (Don's Car) ]** 🚨
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Denver Airport</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL361" target="_blank" rel="noopener noreferrer">UA 361</a> → Door 610 (West)
 ### 10:45 AM: Transfer Jose James, Ebban Dorsey, Luther Allison, Kanoa Mendenhall, Jharis Yokley to hotel
 
-🚨 **[ SHARED TASK: Also assigned to Arturo Gomez (Minivan 1) ]** 🚨
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/UAL690" target="_blank" rel="noopener noreferrer">UA 690</a> → Door 610 (West)
+- 🚨 **[ SHARED TASK: Also assigned to Arturo Gomez (Minivan 1) ]** 🚨
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL690" target="_blank" rel="noopener noreferrer">UA 690</a> → Door 610 (West)
 ### 11:30 AM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
+
 # Locations
 
 

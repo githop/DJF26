@@ -14,13 +14,16 @@ Dropoff Location: Embassy Suites Denver Downtown
 
 ### 6:30 AM: Lobby Call: Bob James, Ava DiSimone, Blaize Oswald to travel to airport
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a> - Flight: <a href="https://flightaware.com/live/flight/UAL2329" target="_blank" rel="noopener noreferrer">UA 2329</a> → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL2329" target="_blank" rel="noopener noreferrer">UA 2329</a> → Door 610 (West)
 ### 8:45 AM: Lobby Call: Orrin Evans, Marvin Smith travel to airport
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a> - Flight: <a href="https://flightaware.com/live/flight/ASA682" target="_blank" rel="noopener noreferrer">AS 682</a>
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a>
+- Flight: <a href="https://flightaware.com/live/flight/ASA682" target="_blank" rel="noopener noreferrer">AS 682</a>
 ### 10:00 AM: Return Minivan to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: TBD
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a>
+- Flight: TBD
 # Locations
 
 

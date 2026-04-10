@@ -16,11 +16,16 @@ Dropoff Location: {{ dropoff_location }}
 ### {{ task.start }}: {{ task.details }}
 
 {% if task.shared_with %}
-🚨 **[ SHARED TASK: Also assigned to {{ task.shared_with | join(', ') }} ]** 🚨
+- 🚨 **[ SHARED TASK: Also assigned to {{ task.shared_with | join(', ') }} ]** 🚨
 {% endif %}
 - {% if task.directions_link %}<a href="{{ task.directions_link }}" target="_blank" rel="noopener noreferrer">{{ task.location }} -&gt; {{ task.destination }}</a>{% else %}{{ task.location }} -> {{ task.destination }}{% endif %}
-  {% if task.is_airport_pickup %} - Flight: {% if task.flight and task.flight_url %}<a href="{{ task.flight_url }}" target="_blank" rel="noopener noreferrer">{{ task.flight }}</a>{% else %}{{ task.flight if task.flight else "TBD" }}{% endif %}{% if task.door %} → {{ task.door }}{% endif %}{% endif %}
-  {% if task.notes %} - Note: {{ task.notes }}{% endif %}
+
+{% if task.is_airport_pickup %}
+- Flight: {% if task.flight and task.flight_url %}<a href="{{ task.flight_url }}" target="_blank" rel="noopener noreferrer">{{ task.flight }}</a>{% else %}{{ task.flight if task.flight else "TBD" }}{% endif %}{% if task.door %} → {{ task.door }}{% endif %}
+{% endif %}
+{% if task.notes %}
+- Note: {{ task.notes }}
+{% endif %}
   {% endfor %}
 
 # Locations

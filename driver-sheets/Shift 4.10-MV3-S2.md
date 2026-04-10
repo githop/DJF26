@@ -14,25 +14,32 @@ Dropoff Location: Embassy Suites Denver Downtown
 
 ### 2:10 PM: Lobby Call: John Beasley, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel to venue
 
-🚨 **[ SHARED TASK: Also assigned to Arturo Gomez (Minivan 1) ]** 🚨
+- 🚨 **[ SHARED TASK: Also assigned to Arturo Gomez (Minivan 1) ]** 🚨
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Newman Center</a>
+
 ### 4:00 PM: Lobby Call: Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham, Elizabeth Oei for travel to venue
 
-🚨 **[ SHARED TASK: Also assigned to Colin Swihart (Minivan 2) ]** 🚨
+- 🚨 **[ SHARED TASK: Also assigned to Colin Swihart (Minivan 2) ]** 🚨
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Cleo Parker Robinson Dance</a>
+
 ### 5:00 PM: Transfer Terreon Gully to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Newman Center -&gt; Warwick Hotel</a>
+
 ### 8:00 PM: Transfer Gary Versace to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a> - Flight: <a href="https://flightaware.com/live/flight/UAL599" target="_blank" rel="noopener noreferrer">UA 599</a> → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL599" target="_blank" rel="noopener noreferrer">UA 599</a> → Door 610 (West)
 ### 9:00 PM: Transfer Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham to hotel
 
-🚨 **[ SHARED TASK: Also assigned to Colin Swihart (Minivan 2) ]** 🚨
-- <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Embassy Suites Denver Downtown</a> - Note: Asset Drop Off (Towels, Stripe phone, Recording USB, Pull up signs, Guest / Comp list)
+- 🚨 **[ SHARED TASK: Also assigned to Colin Swihart (Minivan 2) ]** 🚨
+- <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Embassy Suites Denver Downtown</a>
+- Note: Asset Drop Off (Towels, Stripe phone, Recording USB, Pull up signs, Guest / Comp list)
+
 ### 9:20 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Embassy Suites Denver Downtown</a>
+
 # Locations
 
 

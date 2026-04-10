@@ -15,21 +15,27 @@ Dropoff Location: Warwick Hotel
 ### 2:15 PM: Lobby Call: Randy Napoleon travels to education venue
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1150%2010th%20Street%20Plaza%2C%20Denver%20CO%2080204" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; MSU Denver Music: Kalamath Building</a>
+
 ### 2:30 PM: Transfer Rodney Whitaker to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1150%2010th%20Street%20Plaza%2C%20Denver%20CO%2080204&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">MSU Denver Music: Kalamath Building -&gt; Embassy Suites Denver Downtown</a>
+
 ### 3:50 PM: Transfer Randy Napoleon to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1150%2010th%20Street%20Plaza%2C%20Denver%20CO%2080204&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">MSU Denver Music: Kalamath Building -&gt; Embassy Suites Denver Downtown</a>
+
 ### 4:45 PM: Lobby Call: Orrin Evans, Robert Hurst, Marvin Smith
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Dazzle Jazz Club</a>
+
 ### 5:00 PM: Asset Drop Off (Stripe Phone, ticketing tech)
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Classic Piano of Denver -&gt; Dazzle Jazz Club</a>
+
 ### 5:45 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
+
 # Locations
 
 

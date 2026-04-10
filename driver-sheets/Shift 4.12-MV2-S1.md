@@ -14,8 +14,9 @@ Dropoff Location: Warwick Hotel
 
 ### 5:15 AM: Lobby Call: Jose James, Ebban Dorsey, Luther Allison, Kanoa Mendenhall, Jharis Yokley travel to airport
 
-🚨 **[ SHARED TASK: Also assigned to  (Minivan 1) ]** 🚨
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a> - Flight: <a href="https://flightaware.com/live/flight/UAL2640" target="_blank" rel="noopener noreferrer">UA 2640</a> → Door 610 (West)
+- 🚨 **[ SHARED TASK: Also assigned to  (Minivan 1) ]** 🚨
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL2640" target="_blank" rel="noopener noreferrer">UA 2640</a> → Door 610 (West)
 # Locations
 
 

@@ -14,23 +14,29 @@ Dropoff Location: Warwick Hotel
 
 ### 7:00 PM: Transfer Donovan Cheatham to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/UAL2376" target="_blank" rel="noopener noreferrer">UA 2376</a> → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL2376" target="_blank" rel="noopener noreferrer">UA 2376</a> → Door 610 (West)
 ### 9:00 PM: Transfer Bob James, Andrii Chmut, Michael Palazzolo, John Mahon, Ava DiSimone, Blaize Oswald, Yoshi Kato to hotel
 
-🚨 **[ SHARED TASK: Also assigned to Randy Russell (Minivan 2) ]** 🚨
+- 🚨 **[ SHARED TASK: Also assigned to Randy Russell (Minivan 2) ]** 🚨
 - <a href="https://www.google.com/maps/dir/?api=1&origin=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Newman Center -&gt; Embassy Suites Denver Downtown</a>
+
 ### 9:20 PM: Transfer Yoshi Kato to venue
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Dazzle Jazz Club</a>
+
 ### 10:00 PM: Lobby Call: Rodney Whitaker, Randy Napoleon to airport
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a> - Flight: TBD
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a>
+- Flight: TBD
 ### 11:20 PM: Transfer Orrin Evans, Robert Hurst, Marvin Smith to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Dazzle Jazz Club -&gt; Embassy Suites Denver Downtown</a>
+
 ### 11:30 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
+
 # Locations
 
 

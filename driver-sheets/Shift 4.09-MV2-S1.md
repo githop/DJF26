@@ -15,22 +15,29 @@ Dropoff Location: Warwick Hotel
 ### 12:00 PM: Lobby Call: Rodney Whitaker for travel to education venue
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1150%2010th%20Street%20Plaza%2C%20Denver%20CO%2080204" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; MSU Denver Music: Kalamath Building</a>
+
 ### 12:45 PM: Transfer Adi to rental Agency
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=1980%20Broadway%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Budget Car Rental</a>
+
 ### 2:10 PM: Lobby Call: Bob James, Andrii Chmut, Michael Palazzolo, John Mahon, Ava DiSimone, Blaize Oswald to travel to venue
 
-🚨 **[ SHARED TASK: Also assigned to Nathan Roche (Minivan 3) ]** 🚨
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Newman Center</a> - Note: MV2 to airport after
+- 🚨 **[ SHARED TASK: Also assigned to Nathan Roche (Minivan 3) ]** 🚨
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Newman Center</a>
+- Note: MV2 to airport after
+
 ### 3:00 PM: Transfer Julius Rodriguez to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/UAL2061" target="_blank" rel="noopener noreferrer">UA 2061</a> → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL2061" target="_blank" rel="noopener noreferrer">UA 2061</a> → Door 610 (West)
 ### 3:30 PM: Asset Drop off (Banner, 2x Towels, Stripe Processor)
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Classic Piano of Denver</a>
+
 ### 3:45 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
+
 # Locations
 
 

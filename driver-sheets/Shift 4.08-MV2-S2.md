@@ -14,13 +14,16 @@ Dropoff Location: Warwick Hotel
 
 ### 6:00 PM: Transfer Michael Palazzolo to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a> - Flight: <a href="https://flightaware.com/live/flight/DAL2431" target="_blank" rel="noopener noreferrer">DL 2431</a> → Door 608 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Embassy Suites Denver Downtown</a>
+- Flight: <a href="https://flightaware.com/live/flight/DAL2431" target="_blank" rel="noopener noreferrer">DL 2431</a> → Door 608 (West)
 ### 10:20 PM: Transfer Rodney Whitaker, Michael Dease, Randy Napoleon to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202&destination=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Dazzle Jazz Club -&gt; Embassy Suites Denver Downtown</a>
+
 ### 10:25 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
+
 # Locations
 
 

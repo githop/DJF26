@@ -14,17 +14,22 @@ Dropoff Location: Warwick Hotel
 
 ### 12:00 PM: Lobby Call: Michael Palazzolo, Robert Hurst travel to airport
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a> - Flight: <a href="https://flightaware.com/live/flight/DAL1648" target="_blank" rel="noopener noreferrer">DL 1648</a> → Door 608 (West) - Note: Can we bump this to 11:30? request from Michael P
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Denver Airport</a>
+- Flight: <a href="https://flightaware.com/live/flight/DAL1648" target="_blank" rel="noopener noreferrer">DL 1648</a> → Door 608 (West)- Note: Can we bump this to 11:30? request from Michael P
+
 ### 12:45 PM: Transfer Mark Turner, Ben Williams to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a> - Flight: <a href="https://flightaware.com/live/flight/UAL1912" target="_blank" rel="noopener noreferrer">UA 1912</a> → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Warwick Hotel</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL1912" target="_blank" rel="noopener noreferrer">UA 1912</a> → Door 610 (West)
 ### 2:10 PM: Lobby Call: John Beasley, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel to venue
 
-🚨 **[ SHARED TASK: Also assigned to Matt Herzberger (Minivan 3) ]** 🚨
+- 🚨 **[ SHARED TASK: Also assigned to Matt Herzberger (Minivan 3) ]** 🚨
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Newman Center</a>
+
 ### 4:00 PM: Return Minivan to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Warwick Hotel</a>
+
 # Locations
 
 

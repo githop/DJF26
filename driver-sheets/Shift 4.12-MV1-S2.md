@@ -14,13 +14,16 @@ Dropoff Location: Warwick Hotel
 
 ### 1:00 PM: Transfer Fred Hersch, Drew Gress, Johnathan Blake to hotel
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Hotel Clio</a> - Flight: <a href="https://flightaware.com/live/flight/UAL1912" target="_blank" rel="noopener noreferrer">UA 1912</a> → Door 610 (West)
+- <a href="https://www.google.com/maps/dir/?api=1&origin=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249&destination=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206" target="_blank" rel="noopener noreferrer">Denver Airport -&gt; Hotel Clio</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL1912" target="_blank" rel="noopener noreferrer">UA 1912</a> → Door 610 (West)
 ### 2:05 PM: Lobby Call: Ingrid Jensen, Gary Versace, Jon Wikan, Amina Scott to the venue
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=200%20E%20South%20Boulder%20Rd%2C%20Lafayette%2C%20CO%2080026" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; The Muse Performance Space</a>
+
 ### 4:10 PM: Lobby Call: Fred Hersch, Drew Gress, Johnathan Blake to venue
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206&destination=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246" target="_blank" rel="noopener noreferrer">Hotel Clio -&gt; Mizel Arts & Culture Center at the JCC Denver</a>
+
 # Locations
 
 
