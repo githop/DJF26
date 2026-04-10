@@ -12,14 +12,10 @@ Dropoff Location: Warwick Hotel
 # Use the EZPass toll lane
 
 
-### 5:45 PM: Transfer Ingrid Jensen to KUVO
+### 5:45 PM: Transfer Ingrid Jensen to hotel
 
-- Denver Airport -> KUVO
- - Flight: DL 5431 → Door 608 (West) - Note: If Ingrid arrives early, and there is enough time for her to check in to the Warwick, do that first. But if it's tight, just go straight to KUVO. 
-### 7:35 PM: Transfer Ingrid Jensen to hotel
-
-- KUVO -> Warwick Hotel
-
+- Denver Airport -> Warwick Hotel
+ - Flight: DL 2431 → Door 608 (West) - Note: If Ingrid arrives early, and there is enough time for her to check in to the Warwick, do that first. But if it's tight, just go straight to KUVO. 
 ### 9:00 PM: Transfer John Beasley, Terreon Gully, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel, Yoshi to hotel
 
 - Newman Center -> Warwick Hotel
@@ -40,8 +36,6 @@ Dropoff Location: Warwick Hotel
 
 
 - Denver Airport — [8500 Peña Blvd, Denver, CO 80249](https://www.google.com/maps/search/?api=1&query=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249)
-- KUVO — [2101 Arapahoe St, Unit 1, Denver, CO 80205](https://www.google.com/maps/search/?api=1&query=2101%20Arapahoe%20St%2C%20Unit%201%2C%20Denver%2C%20CO%2080205) Phone: 303-480-9272
-
 - Warwick Hotel — [1776 N Grant St, Denver, CO 80203](https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203) Phone: 303-861-2000
 
 - Newman Center — [2344 E Iliff Avenue, Denver, CO 80210](https://www.google.com/maps/search/?api=1&query=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210) Phone: 303-871-7720
