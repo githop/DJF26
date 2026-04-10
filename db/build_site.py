@@ -382,22 +382,6 @@ def build_breadcrumb(path_parts: list[str]) -> str:
     return f'<div class="breadcrumb">{" / ".join(links)}</div>'
 
 
-def create_redirect(filepath: Path, target: str):
-    """Create an HTML redirect file."""
-    content = f"""<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url={target}">
-    <title>Redirecting...</title>
-</head>
-<body>
-    <p>Redirecting...</p>
-</body>
-</html>"""
-    filepath.write_text(content)
-
-
 def build_site():
     """Main build function."""
     print("Building DJF26 Driver Portal...")
@@ -408,6 +392,9 @@ def build_site():
 
         shutil.rmtree(SITE_DIR)
     SITE_DIR.mkdir(parents=True)
+
+    # Disable Jekyll on GitHub Pages
+    (SITE_DIR / ".nojekyll").touch()
 
     # Track all dates and their content for landing page
     dates_data: dict[str, dict] = {}
@@ -444,10 +431,6 @@ def build_site():
         )
 
         (date_dir / "index.html").write_text(page)
-        create_redirect(
-            agendas_dir / f"{parsed['date_slug']}.html",
-            f"{parsed['date_slug']}/index.html",
-        )
 
         # Track for landing page
         date_key = parsed["date_slug"]
@@ -508,13 +491,6 @@ def build_site():
 
         (shift_dir / "index.html").write_text(page)
 
-        # We don't necessarily need redirects for the deepest level since nobody types these by hand,
-        # but let's do it for consistency.
-        create_redirect(
-            shifts_dir / parsed["date_slug"] / driver / f"{van_slug}-{shift_slug}.html",
-            f"{van_slug}-{shift_slug}/index.html",
-        )
-
         # Track for landing page
         date_key = parsed["date_slug"]
         if date_key not in dates_data:
@@ -551,7 +527,6 @@ def build_site():
         timestamp=datetime.now().strftime("%Y-%m-%d %H:%M"),
     )
     (agendas_dir / "index.html").write_text(agenda_index_page)
-    create_redirect(SITE_DIR / "agendas.html", "agendas/index.html")
 
     # Build shift index page (/shifts/) and date-level indexes
     print("  → Building shift indexes...")
@@ -572,7 +547,6 @@ def build_site():
         timestamp=datetime.now().strftime("%Y-%m-%d %H:%M"),
     )
     (shifts_dir / "index.html").write_text(shift_index_page)
-    create_redirect(SITE_DIR / "shifts.html", "shifts/index.html")
 
     # /shifts/{date}/ - list all drivers for each date
     for date_slug, data in dates_data.items():
@@ -602,7 +576,6 @@ def build_site():
             timestamp=datetime.now().strftime("%Y-%m-%d %H:%M"),
         )
         (shifts_dir / date_slug / "index.html").write_text(date_index_page)
-        create_redirect(shifts_dir / f"{date_slug}.html", f"{date_slug}/index.html")
 
     # Build landing page
     print("  → Building landing page...")
