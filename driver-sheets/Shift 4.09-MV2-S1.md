@@ -22,7 +22,7 @@ Dropoff Location: Warwick Hotel
 
 ### 2:10 PM: Lobby Call: Bob James, Andrii Chmut, Michael Palazzolo, John Mahon, Ava DiSimone, Blaize Oswald to travel to venue
 
-🚨 **[ SHARED TASK: Also assigned to Minivan 3 ]** 🚨
+🚨 **[ SHARED TASK: Also assigned to Nathan Roche (Minivan 3) ]** 🚨
 - Embassy Suites Denver Downtown -> Newman Center
  - Note: MV2 to airport after
 ### 3:00 PM: Transfer Julius Rodriguez to hotel

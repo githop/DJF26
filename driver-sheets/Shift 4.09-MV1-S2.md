@@ -18,7 +18,7 @@ Dropoff Location: Warwick Hotel
  - Flight: UA 2376 → Door 610 (West)
 ### 9:00 PM: Transfer Bob James, Andrii Chmut, Michael Palazzolo, John Mahon, Ava DiSimone, Blaize Oswald, Yoshi Kato to hotel
 
-🚨 **[ SHARED TASK: Also assigned to Minivan 2 ]** 🚨
+🚨 **[ SHARED TASK: Also assigned to Randy Russell (Minivan 2) ]** 🚨
 - Newman Center -> Embassy Suites Denver Downtown
 
 ### 9:20 PM: Transfer Yoshi Kato to venue

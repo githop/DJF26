@@ -622,6 +622,8 @@ def build_sheet(
     rental_lookup: dict[str, dict[str, str]],
     contact_lookups: tuple[dict[str, dict], dict[str, dict]],
     date: str,
+    all_shifts: list[dict] = [],
+    prev_overnight_shifts: list[dict] = [],
 ) -> dict:
     """Assemble the template context for one driver shift."""
 
@@ -676,7 +678,33 @@ def build_sheet(
         assigned_vehicles = [
             v.strip() for v in (t["Vehicles"] or "").split(",") if v.strip()
         ]
-        shared_with = [v for v in assigned_vehicles if v != vehicle]
+
+        shared_with = []
+        task_time = parse_time(t["Start"])
+        midnight = time(0, 0)
+
+        for other_vehicle in assigned_vehicles:
+            if other_vehicle == vehicle:
+                continue
+
+            other_driver = "Unknown Driver"
+
+            for s in all_shifts:
+                if vehicle_matches(other_vehicle, s["Vehicles"]):
+                    if time_in_window(
+                        task_time, parse_time(s["Start"]), parse_time(s["End"])
+                    ):
+                        other_driver = s["Drivers"]
+                        break
+
+            if other_driver == "Unknown Driver":
+                for s in prev_overnight_shifts:
+                    if vehicle_matches(other_vehicle, s["Vehicles"]):
+                        if time_in_window(task_time, midnight, parse_time(s["End"])):
+                            other_driver = s["Drivers"]
+                            break
+
+            shared_with.append(f"{other_driver} ({other_vehicle})")
 
         task_rows.append(
             {
@@ -914,6 +942,8 @@ def main():
             rental_lookup,
             contact_lookups,
             date,
+            shifts,
+            prev_overnight_shifts,
         )
 
         content = render(context, template_src)

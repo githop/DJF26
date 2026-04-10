@@ -14,7 +14,7 @@ Dropoff Location: Embassy Suites Denver Downtown
 
 ### 11:10 AM: Lobby Call: Carmen Lundy, Julius Rodriguez, Andrew Renfroe, Donovan Cheatham, Elizabeth Oei to airport
 
-🚨 **[ SHARED TASK: Also assigned to Nick's Car ]** 🚨
+🚨 **[ SHARED TASK: Also assigned to Unknown Driver (Nick's Car) ]** 🚨
 - Embassy Suites Denver Downtown -> Denver Airport
  - Flight: UA 1812 → Door 610 (West)
 ### 12:30 PM: Transfer Amina Scott to hotel

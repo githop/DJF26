@@ -22,7 +22,7 @@ Dropoff Location: Warwick Hotel
 
 ### 11:20 PM: Transfer Jose James, Ebban Dorsey, Luther Allison, Kanoa Mendenhall, Jharis Yokley to hotel
 
-🚨 **[ SHARED TASK: Also assigned to Minivan 2 ]** 🚨
+🚨 **[ SHARED TASK: Also assigned to  (Minivan 2) ]** 🚨
 - Cleo Parker Robinson Dance -> Embassy Suites Denver Downtown
 
 # Locations

@@ -14,12 +14,12 @@ Dropoff Location: Warwick Hotel
 
 ### 2:40 PM: Lobby Call: Jose James, Ebban Dorsey, Luther Allison, Kanoa Mendenhall, Jharis Yokley to venue
 
-🚨 **[ SHARED TASK: Also assigned to Minivan 1 ]** 🚨
+🚨 **[ SHARED TASK: Also assigned to Colin Swihart (Minivan 1) ]** 🚨
 - Embassy Suites Denver Downtown -> Cleo Parker Robinson Dance
 
 ### 3:15 PM: Lobby Call: Ingrid Jensen, Gary Versace, Jon Wikan, Amina Scott to venue
 
-🚨 **[ SHARED TASK: Also assigned to Minivan 1 ]** 🚨
+🚨 **[ SHARED TASK: Also assigned to Colin Swihart (Minivan 1) ]** 🚨
 - Warwick Hotel -> Dazzle Jazz Club
 
 ### 6:30 PM: Return Minivan to hotel

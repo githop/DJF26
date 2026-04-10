@@ -14,7 +14,7 @@ Dropoff Location: Warwick Hotel
 
 ### 4:00 PM: Lobby Call: Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham, Elizabeth Oei for travel to venue
 
-🚨 **[ SHARED TASK: Also assigned to Minivan 3 ]** 🚨
+🚨 **[ SHARED TASK: Also assigned to Matt Herzberger (Minivan 3) ]** 🚨
 - Embassy Suites Denver Downtown -> Cleo Parker Robinson Dance
 
 ### 5:45 PM: Lobby Call: ELEW to Warwick
@@ -31,7 +31,7 @@ Dropoff Location: Warwick Hotel
  - Note: Tom will do 
 ### 9:00 PM: Transfer Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham to hotel
 
-🚨 **[ SHARED TASK: Also assigned to Minivan 3 ]** 🚨
+🚨 **[ SHARED TASK: Also assigned to Matt Herzberger (Minivan 3) ]** 🚨
 - Cleo Parker Robinson Dance -> Embassy Suites Denver Downtown
  - Note: Asset Drop Off (Towels, Stripe phone, Recording USB, Pull up signs, Guest / Comp list)
 ### 9:15 PM: Return Minivan to hotel

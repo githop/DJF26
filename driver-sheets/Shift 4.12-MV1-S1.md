@@ -14,7 +14,7 @@ Dropoff Location: Warwick Hotel
 
 ### 5:15 AM: Lobby Call: Jose James, Ebban Dorsey, Luther Allison, Kanoa Mendenhall, Jharis Yokley travel to airport
 
-🚨 **[ SHARED TASK: Also assigned to Minivan 2 ]** 🚨
+🚨 **[ SHARED TASK: Also assigned to  (Minivan 2) ]** 🚨
 - Embassy Suites Denver Downtown -> Denver Airport
  - Flight: UA 2640 → Door 610 (West)
 # Locations
