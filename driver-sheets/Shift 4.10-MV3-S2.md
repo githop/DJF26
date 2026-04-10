@@ -20,6 +20,10 @@ Dropoff Location: Embassy Suites Denver Downtown
 
 - Embassy Suites Denver Downtown -> Cleo Parker Robinson Dance
 
+### 5:00 PM: Transfer Terreon Gully to hotel
+
+- Newman Center -> Warwick Hotel
+
 ### 8:00 PM: Transfer Gary Versace to hotel
 
 - Denver Airport -> Warwick Hotel
@@ -63,6 +67,8 @@ Dropoff Location: Embassy Suites Denver Downtown
 - Donovan Cheatham: [804-513-9768](tel:8045139768)
 
 - Elizabeth Teklits: [312-858-2477](tel:3128582477)
+
+- Terreon Gully: [917-754-6193‬](tel:9177546193)
 
 - Gary Versace: [347-661-4977](tel:3476614977)
 - GTC Contact: Tom [513-675-4467](tel:5136754467)

@@ -20,7 +20,7 @@ Dropoff Location: Warwick Hotel
 
 - Crawford Hotel -> Warwick Hotel
  - Note: Tom will do 
-### 6:15 PM: Lobby Call: Yoshi Kato, ELEW to venue
+### 6:15 PM: Lobby Call: Yoshi Kato, ELEW, Terreon Gully to venue
 
 - Warwick Hotel -> Newman Center
  - Note: Tom will do 
@@ -63,6 +63,8 @@ Dropoff Location: Warwick Hotel
 
 - Elizabeth Teklits: [312-858-2477](tel:3128582477)
 - Yoshi Kato: Unknown
+
+- Terreon Gully: [917-754-6193‬](tel:9177546193)
 - GTC Contact: Tom [513-675-4467](tel:5136754467)
 - Adi Diner: [917-494-2896](tel:9174942896)
 
