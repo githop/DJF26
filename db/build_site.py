@@ -506,6 +506,73 @@ def build_site():
             }
         )
 
+    # Build agenda index page (/agendas/)
+    print("  → Building agenda index...")
+    agenda_index_content = "<h1>All Agendas</h1><ul>"
+    for date_slug in sorted(dates_data.keys()):
+        data = dates_data[date_slug]
+        date_display = f"{data['month']}/{data['day']}"
+        agenda_path = data.get("agenda", f"/agendas/{date_slug}/")
+        agenda_index_content += f'<li><a href="{agenda_path}">{date_display}</a></li>'
+    agenda_index_content += "</ul>"
+
+    agenda_index_page = HTML_TEMPLATE.format(
+        title="All Agendas",
+        breadcrumb=build_breadcrumb(["agendas"]),
+        content=agenda_index_content,
+        timestamp=datetime.now().strftime("%Y-%m-%d %H:%M"),
+    )
+    (agendas_dir / "index.html").write_text(agenda_index_page)
+
+    # Build shift index page (/shifts/) and date-level indexes
+    print("  → Building shift indexes...")
+
+    # /shifts/ - list all dates
+    shift_index_content = "<h1>All Shifts by Date</h1>"
+    for date_slug in sorted(dates_data.keys()):
+        data = dates_data[date_slug]
+        date_display = f"{data['month']}/{data['day']}"
+        shift_index_content += (
+            f'<h2><a href="/shifts/{date_slug}/">{date_display}</a></h2>'
+        )
+
+    shift_index_page = HTML_TEMPLATE.format(
+        title="All Shifts",
+        breadcrumb=build_breadcrumb(["shifts"]),
+        content=shift_index_content,
+        timestamp=datetime.now().strftime("%Y-%m-%d %H:%M"),
+    )
+    (shifts_dir / "index.html").write_text(shift_index_page)
+
+    # /shifts/{date}/ - list all drivers for each date
+    for date_slug, data in dates_data.items():
+        date_display = f"{data['month']}/{data['day']}"
+
+        # Group shifts by driver
+        by_driver: dict[str, list] = {}
+        for shift in data["shifts"]:
+            d = shift["driver"]
+            if d not in by_driver:
+                by_driver[d] = []
+            by_driver[d].append(shift)
+
+        date_index_content = f"<h1>Shifts for {date_display}</h1>"
+        for driver in sorted(by_driver.keys()):
+            driver_display = driver.replace("-", " ").title()
+            date_index_content += f"<h2>{driver_display}</h2><ul>"
+            for shift in by_driver[driver]:
+                label = f"{shift['van']} - {shift['shift']}"
+                date_index_content += f'<li><a href="{shift["path"]}">{label}</a></li>'
+            date_index_content += "</ul>"
+
+        date_index_page = HTML_TEMPLATE.format(
+            title=f"Shifts for {date_display}",
+            breadcrumb=build_breadcrumb(["shifts", date_slug]),
+            content=date_index_content,
+            timestamp=datetime.now().strftime("%Y-%m-%d %H:%M"),
+        )
+        (shifts_dir / date_slug / "index.html").write_text(date_index_page)
+
     # Build landing page
     print("  → Building landing page...")
 
