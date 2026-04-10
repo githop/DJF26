@@ -15,6 +15,9 @@ Dropoff Location: {{ dropoff_location }}
 
 ### {{ task.start }}: {{ task.details }}
 
+{% if task.shared_with %}
+🚨 **[ SHARED TASK: Also assigned to {{ task.shared_with | join(', ') }} ]** 🚨
+{% endif %}
 - {{ task.location }} -> {{ task.destination }}
   {% if task.is_airport_pickup %} - Flight: {{ task.flight if task.flight else "TBD" }}{% if task.door %} → {{ task.door }}{% endif %}{% endif %}
   {% if task.notes %} - Note: {{ task.notes }}{% endif %}

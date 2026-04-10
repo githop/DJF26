@@ -673,6 +673,11 @@ def build_sheet(
                     }
                 )
 
+        assigned_vehicles = [
+            v.strip() for v in (t["Vehicles"] or "").split(",") if v.strip()
+        ]
+        shared_with = [v for v in assigned_vehicles if v != vehicle]
+
         task_rows.append(
             {
                 "start": format_time_ampm(t["Start"]),
@@ -684,6 +689,7 @@ def build_sheet(
                 "is_airport_pickup": is_airport_task,
                 "flight": flight,
                 "door": door,
+                "shared_with": shared_with,
             }
         )
 
