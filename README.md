@@ -22,10 +22,16 @@ This will:
 
 ## URL Structure
 
+**Note:** GitHub Pages requires explicit `index.html` in URLs. Use trailing slashes or full paths.
+
 | Page | URL |
 |------|-----|
-| Daily Agenda | `/agendas/4-08/` |
-| Driver Shift | `/shifts/4-08/{driver-name}/van-1-shift-1/` |
+| Home | `/` or `/index.html` |
+| All Agendas | `/agendas/` or `/agendas/index.html` |
+| All Shifts | `/shifts/` or `/shifts/index.html` |
+| Daily Agenda | `/agendas/4-08/` or `/agendas/4-08/index.html` |
+| Driver Shifts | `/shifts/4-08/` or `/shifts/4-08/index.html` |
+| Individual Shift | `/shifts/4-08/{driver-name}/van-1-shift-1/index.html` |
 
 ## Scripts
 
@@ -63,6 +69,8 @@ Only the `site/` directory and Python scripts are tracked. CSVs and generated ma
 **GitHub Pages 404?**
 - Ensure `site/` directory exists at repo root
 - Check Settings → Pages → Source is set to root
+- **Use trailing slashes**: `/shifts/` not `/shifts`
+- Or use explicit file: `/shifts/index.html`
 
 **Driver not showing in URL?**
 - Driver name comes from first H1 in shift markdown
