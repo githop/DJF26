@@ -16,7 +16,7 @@ Dropoff Location: Warwick Hotel
 
 - Denver Airport -> Warwick Hotel
  - Flight: DL 2431 → Door 608 (West) - Note: If Ingrid arrives early, and there is enough time for her to check in to the Warwick, do that first. But if it's tight, just go straight to KUVO. 
-### 9:00 PM: Transfer John Beasley, Terreon Gully, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel, Yoshi to hotel
+### 9:00 PM: Transfer John Beasley, Terreon Gully, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel, Yoshi Kato, ELEW to hotel
 
 - Newman Center -> Warwick Hotel
  - Note: * Nick to take Kurt +1. Don to take John +1, Asset pick up (Pull up, Merch, USB)
