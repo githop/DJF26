@@ -63,35 +63,40 @@ Send this to the driver after their flight has landed.
 
 ## Jose James - 917-498-9008
 
-```
-Hi, it's Matt Herzberger. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.
-```
+<div class="message-box">
+  <div class="message-text">Hi, it's Matt Herzberger. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.</div>
+  <button class="copy-btn" onclick="copyMessage(this)">Copy Message</button>
+</div>
 
 
 ## Ebban Dorsey - Unknown
 
-```
-Hi, it's Matt Herzberger. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.
-```
+<div class="message-box">
+  <div class="message-text">Hi, it's Matt Herzberger. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.</div>
+  <button class="copy-btn" onclick="copyMessage(this)">Copy Message</button>
+</div>
 
 
 ## Luther Allison - Unknown
 
-```
-Hi, it's Matt Herzberger. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.
-```
+<div class="message-box">
+  <div class="message-text">Hi, it's Matt Herzberger. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.</div>
+  <button class="copy-btn" onclick="copyMessage(this)">Copy Message</button>
+</div>
 
 
 ## Kanoa Mendenhall - Unknown
 
-```
-Hi, it's Matt Herzberger. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.
-```
+<div class="message-box">
+  <div class="message-text">Hi, it's Matt Herzberger. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.</div>
+  <button class="copy-btn" onclick="copyMessage(this)">Copy Message</button>
+</div>
 
 
 ## Jharis Yokley - Unknown
 
-```
-Hi, it's Matt Herzberger. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.
-```
+<div class="message-box">
+  <div class="message-text">Hi, it's Matt Herzberger. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.</div>
+  <button class="copy-btn" onclick="copyMessage(this)">Copy Message</button>
+</div>
 

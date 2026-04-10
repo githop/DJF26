@@ -64,9 +64,10 @@ Send this to the driver after their flight has landed.
 
 ## {{ msg.passenger }} - {{ msg.phone }}
 
-```
-{{ msg.message }}
-```
+<div class="message-box">
+  <div class="message-text">{{ msg.message }}</div>
+  <button class="copy-btn" onclick="copyMessage(this)">Copy Message</button>
+</div>
 
 {% endfor %}
 {% endif %}

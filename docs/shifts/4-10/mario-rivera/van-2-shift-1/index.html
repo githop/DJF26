@@ -156,6 +156,44 @@
             .content { border: none; padding: 0; box-shadow: none; background: #fff; }
             a { text-decoration: none; color: #000; }
         }
+        /* Message box styling for pickup text */
+        .message-box {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        .message-text {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: var(--fg);
+            margin-bottom: 0.75rem;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .copy-btn {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        .copy-btn:hover {
+            opacity: 0.9;
+        }
+        .copy-btn:active {
+            transform: scale(0.98);
+        }
+        .copy-btn.copied {
+            background: #28a745;
+        }
     </style>
 </head>
 <body>
@@ -221,11 +259,49 @@ Dropoff Location: Warwick Hotel</p>
 <p>Use these prefilled text messages to coordinate pickup with the driver.
 Send this to the driver after their flight has landed.</p>
 <h2 id="marquis-hill-unknown">Marquis Hill - Unknown</h2>
-<pre><code>Hi, it's Mario Rivera. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.
-</code></pre>
+<div class="message-box">
+  <div class="message-text">Hi, it's Mario Rivera. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.</div>
+  <button class="copy-btn" onclick="copyMessage(this)">Copy Message</button>
+</div>
     </div>
     <footer>
-        <p>Generated 2026-04-10 16:35 • Internal Use Only</p>
+        <p>Generated 2026-04-10 17:27 • Internal Use Only</p>
     </footer>
+    <script>
+        function copyMessage(btn) {
+            const messageBox = btn.parentElement;
+            const messageText = messageBox.querySelector('.message-text').innerText;
+            navigator.clipboard.writeText(messageText).then(function() {
+                const originalText = btn.innerText;
+                btn.innerText = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(function() {
+                    btn.innerText = originalText;
+                    btn.classList.remove('copied');
+                }, 2000);
+            }).catch(function(err) {
+                console.error('Failed to copy: ', err);
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = messageText;
+                textArea.style.position = 'fixed';
+                textArea.style.left = '-9999px';
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                    btn.innerText = 'Copied!';
+                    btn.classList.add('copied');
+                    setTimeout(function() {
+                        btn.innerText = 'Copy Message';
+                        btn.classList.remove('copied');
+                    }, 2000);
+                } catch (err) {
+                    console.error('Fallback copy failed: ', err);
+                }
+                document.body.removeChild(textArea);
+            });
+        }
+    </script>
 </body>
 </html>

@@ -182,6 +182,44 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             .content {{ border: none; padding: 0; box-shadow: none; background: #fff; }}
             a {{ text-decoration: none; color: #000; }}
         }}
+        /* Message box styling for pickup text */
+        .message-box {{
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            position: relative;
+        }}
+        .message-text {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            color: var(--fg);
+            margin-bottom: 0.75rem;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }}
+        .copy-btn {{
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }}
+        .copy-btn:hover {{
+            opacity: 0.9;
+        }}
+        .copy-btn:active {{
+            transform: scale(0.98);
+        }}
+        .copy-btn.copied {{
+            background: #28a745;
+        }}
     </style>
 </head>
 <body>
@@ -196,6 +234,42 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <footer>
         <p>Generated {timestamp} • Internal Use Only</p>
     </footer>
+    <script>
+        function copyMessage(btn) {{
+            const messageBox = btn.parentElement;
+            const messageText = messageBox.querySelector('.message-text').innerText;
+            navigator.clipboard.writeText(messageText).then(function() {{
+                const originalText = btn.innerText;
+                btn.innerText = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(function() {{
+                    btn.innerText = originalText;
+                    btn.classList.remove('copied');
+                }}, 2000);
+            }}).catch(function(err) {{
+                console.error('Failed to copy: ', err);
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = messageText;
+                textArea.style.position = 'fixed';
+                textArea.style.left = '-9999px';
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {{
+                    document.execCommand('copy');
+                    btn.innerText = 'Copied!';
+                    btn.classList.add('copied');
+                    setTimeout(function() {{
+                        btn.innerText = 'Copy Message';
+                        btn.classList.remove('copied');
+                    }}, 2000);
+                }} catch (err) {{
+                    console.error('Fallback copy failed: ', err);
+                }}
+                document.body.removeChild(textArea);
+            }});
+        }}
+    </script>
 </body>
 </html>
 """

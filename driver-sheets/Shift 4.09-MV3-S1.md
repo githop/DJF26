@@ -70,7 +70,8 @@ Send this to the driver after their flight has landed.
 
 ## Terreon Gully - 917-754-6193‬
 
-```
-Hi, it's Nathan Roche. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a Silver Chrysler Pacifica, license plate #EII-J98. Please text me when you have collected your bags, and I will pick you up near Door 608 (West), 5-10 minutes later.
-```
+<div class="message-box">
+  <div class="message-text">Hi, it's Nathan Roche. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a Silver Chrysler Pacifica, license plate #EII-J98. Please text me when you have collected your bags, and I will pick you up near Door 608 (West), 5-10 minutes later.</div>
+  <button class="copy-btn" onclick="copyMessage(this)">Copy Message</button>
+</div>
 
