@@ -32,12 +32,12 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <title>{title} | DJF26 Driver Portal</title>
     <style>
         :root {{
-            --bg: #0f0f0f;
-            --fg: #f0f0f0;
-            --accent: #ff6b35;
-            --muted: #888;
-            --border: #333;
-            --card: #1a1a1a;
+            --bg: #ffffff;
+            --fg: #1f1f1f;
+            --accent: #d94d1a;
+            --muted: #666666;
+            --border: #e0e0e0;
+            --card: #f8f9fa;
         }}
         * {{ box-sizing: border-box; margin: 0; padding: 0; }}
         body {{
@@ -176,6 +176,12 @@ HTML_TEMPLATE = """<!DOCTYPE html>
                 padding: 0.5rem;
             }}
         }}
+        @media print {{
+            body {{ background: #fff; color: #000; padding: 0; }}
+            header, .breadcrumb, footer {{ display: none; }}
+            .content {{ border: none; padding: 0; box-shadow: none; background: #fff; }}
+            a {{ text-decoration: none; color: #000; }}
+        }}
     </style>
 </head>
 <body>
@@ -202,12 +208,12 @@ LANDING_TEMPLATE = """<!DOCTYPE html>
     <title>DJF26 Driver Portal</title>
     <style>
         :root {{
-            --bg: #0f0f0f;
-            --fg: #f0f0f0;
-            --accent: #ff6b35;
-            --muted: #888;
-            --border: #333;
-            --card: #1a1a1a;
+            --bg: #ffffff;
+            --fg: #1f1f1f;
+            --accent: #d94d1a;
+            --muted: #666666;
+            --border: #e0e0e0;
+            --card: #f8f9fa;
         }}
         * {{ box-sizing: border-box; margin: 0; padding: 0; }}
         body {{
