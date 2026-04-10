@@ -92,8 +92,13 @@ fi
 
 echo
 
-# Step 4: Check git status and commit
-echo -e "${YELLOW}📦 Step 4: Git staging and commit...${NC}"
+# Step 4: Build HTML site
+echo -e "${YELLOW}🔨 Step 4: Building HTML site...${NC}"
+uv run db/build_site.py
+echo
+
+# Step 5: Check git status and commit
+echo -e "${YELLOW}📦 Step 5: Git staging and commit...${NC}"
 
 # Check if there are changes to commit
 if git diff --quiet HEAD && git diff --cached --quiet HEAD; then
@@ -109,6 +114,7 @@ else
     CSV_CHANGES=$(git diff --cached --name-only | grep -c '\.csv$' 2>/dev/null || echo 0)
     MD_CHANGES=$(git diff --cached --name-only | grep -c '\.md$' 2>/dev/null || echo 0)
     DB_CHANGES=$(git diff --cached --name-only | grep -c '\.db$' 2>/dev/null || echo 0)
+    HTML_CHANGES=$(git diff --cached --name-only | grep 'site/' 2>/dev/null | wc -l | tr -d ' ')
     
     COMMIT_MSG="Sync: $TIMESTAMP"
     
@@ -117,6 +123,9 @@ else
     fi
     if [ "$MD_CHANGES" -gt 0 ]; then
         COMMIT_MSG="$COMMIT_MSG | Sheets: $MD_CHANGES"
+    fi
+    if [ "$HTML_CHANGES" -gt 0 ]; then
+        COMMIT_MSG="$COMMIT_MSG | HTML: $HTML_CHANGES"
     fi
     if [ "$DB_CHANGES" -gt 0 ]; then
         COMMIT_MSG="$COMMIT_MSG | DB"
@@ -128,8 +137,8 @@ fi
 
 echo
 
-# Step 5: Push to remote
-echo -e "${YELLOW}🚀 Step 5: Pushing to remote...${NC}"
+# Step 6: Push to remote
+echo -e "${YELLOW}🚀 Step 6: Pushing to remote...${NC}"
 
 if git rev-parse --abbrev-ref @{upstream} > /dev/null 2>&1; then
     git push
