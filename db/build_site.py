@@ -422,6 +422,29 @@ def build_site():
 
         # Read and convert
         md_content = md_file.read_text()
+
+        import urllib.parse
+
+        def replace_sheet_link(match):
+            filename = urllib.parse.unquote(match.group(1))
+            sheet_path = DRIVER_SHEETS_DIR / filename
+            if sheet_path.exists():
+                sheet_content = sheet_path.read_text()
+                driver = "unknown"
+                driver_match = re.search(
+                    r"^#\s+(.+?)\s+-\s+\d+/\d+", sheet_content, re.MULTILINE
+                )
+                if driver_match:
+                    driver = extract_first_driver(driver_match.group(1))
+                parsed_shift = parse_shift_filename(filename)
+                if parsed_shift:
+                    van_slug = f"van-{parsed_shift['vehicle_num'][2:]}"
+                    shift_slug = f"shift-{parsed_shift['shift_num']}"
+                    return f"/DJF26/shifts/{parsed_shift['date_slug']}/{driver}/{van_slug}-{shift_slug}/index.html"
+            return match.group(0)
+
+        md_content = re.sub(r"/sheet/([^)]+)", replace_sheet_link, md_content)
+
         html_content = md_to_html(md_content)
 
         # Build page
