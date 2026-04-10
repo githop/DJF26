@@ -22,6 +22,7 @@ Dropoff Location: Warwick Hotel
  - Flight: UA 1912 → Door 610 (West)
 ### 2:10 PM: Lobby Call: John Beasley, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel to venue
 
+🚨 **[ SHARED TASK: Also assigned to Minivan 3 ]** 🚨
 - Warwick Hotel -> Newman Center
 
 ### 4:00 PM: Return Minivan to hotel

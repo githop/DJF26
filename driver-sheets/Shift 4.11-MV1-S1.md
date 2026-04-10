@@ -14,6 +14,7 @@ Dropoff Location: Warwick Hotel
 
 ### 7:40 AM: Lobby Call: John Beasley, Terreon Gully, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel travel to airport
 
+🚨 **[ SHARED TASK: Also assigned to Minivan 2, Don's Car ]** 🚨
 - Warwick Hotel -> Denver Airport
  - Flight: UA 361 → Door 610 (West)
 ### 10:00 AM: Lobby Call: Kenny Davis travel to airport
@@ -22,6 +23,7 @@ Dropoff Location: Warwick Hotel
  - Flight: UA 1283 → Door 610 (West)
 ### 10:45 AM: Transfer Jose James, Ebban Dorsey, Luther Allison, Kanoa Mendenhall, Jharis Yokley to hotel
 
+🚨 **[ SHARED TASK: Also assigned to Minivan 2 ]** 🚨
 - Denver Airport -> Embassy Suites Denver Downtown
  - Flight: UA 690 → Door 610 (West)
 ### 11:30 AM: Return Minivan to hotel

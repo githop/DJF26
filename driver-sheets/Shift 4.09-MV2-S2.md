@@ -26,6 +26,7 @@ Dropoff Location: Warwick Hotel
 
 ### 9:00 PM: Transfer Bob James, Andrii Chmut, Michael Palazzolo, John Mahon, Ava DiSimone, Blaize Oswald, Yoshi Kato to hotel
 
+🚨 **[ SHARED TASK: Also assigned to Minivan 1 ]** 🚨
 - Newman Center -> Embassy Suites Denver Downtown
 
 ### 9:15 PM: Return Minivan to hotel

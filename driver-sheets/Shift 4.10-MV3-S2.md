@@ -14,10 +14,12 @@ Dropoff Location: Embassy Suites Denver Downtown
 
 ### 2:10 PM: Lobby Call: John Beasley, Marquis Hill, Mark Turner, Ben Williams, Kurt Rosenwinkel to venue
 
+🚨 **[ SHARED TASK: Also assigned to Minivan 1 ]** 🚨
 - Warwick Hotel -> Newman Center
 
 ### 4:00 PM: Lobby Call: Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham, Elizabeth Oei for travel to venue
 
+🚨 **[ SHARED TASK: Also assigned to Minivan 2 ]** 🚨
 - Embassy Suites Denver Downtown -> Cleo Parker Robinson Dance
 
 ### 5:00 PM: Transfer Terreon Gully to hotel
@@ -30,6 +32,7 @@ Dropoff Location: Embassy Suites Denver Downtown
  - Flight: UA 599 → Door 610 (West)
 ### 9:00 PM: Transfer Carmen Lundy, Julius Rodriguez, Kenny Davis, Andrew Renfroe, Donovan Cheatham to hotel
 
+🚨 **[ SHARED TASK: Also assigned to Minivan 2 ]** 🚨
 - Cleo Parker Robinson Dance -> Embassy Suites Denver Downtown
  - Note: Asset Drop Off (Towels, Stripe phone, Recording USB, Pull up signs, Guest / Comp list)
 ### 9:20 PM: Return Minivan to hotel

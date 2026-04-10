@@ -14,6 +14,7 @@ Dropoff Location: Embassy Suites Denver Downtown
 
 ### 2:10 PM: Lobby Call: Bob James, Andrii Chmut, Michael Palazzolo, John Mahon, Ava DiSimone, Blaize Oswald to travel to venue
 
+🚨 **[ SHARED TASK: Also assigned to Minivan 2 ]** 🚨
 - Embassy Suites Denver Downtown -> Newman Center
  - Note: MV2 to airport after
 ### 3:45 PM: Transfer Terreon Gully to hotel
