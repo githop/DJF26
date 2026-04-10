@@ -366,13 +366,14 @@ def build_breadcrumb(path_parts: list[str]) -> str:
     if not path_parts:
         return ""
 
-    links = ['<a href="/">Home</a>']
+    links = ['<a href="/index.html">Home</a>']
     current_path = ""
 
     for i, part in enumerate(path_parts[:-1]):
         current_path += f"/{part}"
+        # Capitalize and format
         label = part.replace("-", " ").title()
-        links.append(f'<a href="{current_path}/">{label}</a>')
+        links.append(f'<a href="{current_path}/index.html">{label}</a>')
 
     # Last part is current page (no link)
     current_label = path_parts[-1].replace("-", " ").title()
@@ -433,7 +434,7 @@ def build_site():
         if date_key not in dates_data:
             dates_data[date_key] = {
                 "shifts": [],
-                "agenda": f"/agendas/{parsed['date_slug']}/",
+                "agenda": f"/agendas/{parsed['date_slug']}/index.html",
                 "month": parsed["month"],
                 "day": parsed["day"],
             }
@@ -502,7 +503,7 @@ def build_site():
                 "driver": driver,
                 "van": van_slug,
                 "shift": shift_slug,
-                "path": f"/shifts/{parsed['date_slug']}/{driver}/{van_slug}-{shift_slug}/",
+                "path": f"/shifts/{parsed['date_slug']}/{driver}/{van_slug}-{shift_slug}/index.html",
             }
         )
 
@@ -512,7 +513,7 @@ def build_site():
     for date_slug in sorted(dates_data.keys()):
         data = dates_data[date_slug]
         date_display = f"{data['month']}/{data['day']}"
-        agenda_path = data.get("agenda", f"/agendas/{date_slug}/")
+        agenda_path = data.get("agenda", f"/agendas/{date_slug}/index.html")
         agenda_index_content += f'<li><a href="{agenda_path}">{date_display}</a></li>'
     agenda_index_content += "</ul>"
 
@@ -533,7 +534,7 @@ def build_site():
         data = dates_data[date_slug]
         date_display = f"{data['month']}/{data['day']}"
         shift_index_content += (
-            f'<h2><a href="/shifts/{date_slug}/">{date_display}</a></h2>'
+            f'<h2><a href="/shifts/{date_slug}/index.html">{date_display}</a></h2>'
         )
 
     shift_index_page = HTML_TEMPLATE.format(
