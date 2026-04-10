@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJF26 Driver Portal</title>
+    <style>
+        :root {
+            --bg: #0f0f0f;
+            --fg: #f0f0f0;
+            --accent: #ff6b35;
+            --muted: #888;
+            --border: #333;
+            --card: #1a1a1a;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--fg);
+            line-height: 1.6;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 3rem 1rem;
+            border-bottom: 2px solid var(--accent);
+            margin-bottom: 3rem;
+        }
+        header h1 {
+            color: var(--accent);
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            color: var(--muted);
+            font-size: 1.1rem;
+        }
+        .dates-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .date-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        .date-card h2 {
+            color: var(--accent);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .date-card h3 {
+            color: var(--muted);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin: 1rem 0 0.5rem 0;
+        }
+        .date-card a {
+            display: block;
+            padding: 0.5rem 0;
+            color: var(--fg);
+            text-decoration: none;
+            border-bottom: 1px solid var(--border);
+        }
+        .date-card a:hover {
+            color: var(--accent);
+        }
+        .date-card a:last-child {
+            border-bottom: none;
+        }
+        .agenda-link {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--bg) !important;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: 600;
+            margin-top: 0.5rem;
+            text-align: center;
+        }
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            body { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎷 Denver Jazz Fest 2026</h1>
+        <p>Driver Portal • Grand Transportation Coordination</p>
+    </header>
+    <div class="dates-grid">
+        
+        <div class="date-card">
+            <h2>4/08</h2>
+            <a href="/DJF26/agendas/4-08/index.html" class="agenda-link">View Full Agenda</a>
+            <h3>Arturo Gomez</h3><a href="/DJF26/shifts/4-08/arturo-gomez/van-2-shift-2/index.html">van-2 - shift-2</a><h3>Mario Rivera</h3><a href="/DJF26/shifts/4-08/mario-rivera/van-1-shift-1/index.html">van-1 - shift-1</a><h3>Matt Herzberger</h3><a href="/DJF26/shifts/4-08/matt-herzberger/van-1-shift-3/index.html">van-1 - shift-3</a><h3>Randy Russell</h3><a href="/DJF26/shifts/4-08/randy-russell/van-1-shift-2/index.html">van-1 - shift-2</a><a href="/DJF26/shifts/4-08/randy-russell/van-2-shift-1/index.html">van-2 - shift-1</a>
+        </div>
+        
+
+        <div class="date-card">
+            <h2>4/09</h2>
+            <a href="/DJF26/agendas/4-09/index.html" class="agenda-link">View Full Agenda</a>
+            <h3>Mario Rivera</h3><a href="/DJF26/shifts/4-09/mario-rivera/van-2-shift-1/index.html">van-2 - shift-1</a><h3>Matt Herzberger</h3><a href="/DJF26/shifts/4-09/matt-herzberger/van-1-shift-1/index.html">van-1 - shift-1</a><h3>Nathan Roche</h3><a href="/DJF26/shifts/4-09/nathan-roche/van-1-shift-2/index.html">van-1 - shift-2</a><a href="/DJF26/shifts/4-09/nathan-roche/van-3-shift-1/index.html">van-3 - shift-1</a><h3>Randy Russell</h3><a href="/DJF26/shifts/4-09/randy-russell/van-2-shift-2/index.html">van-2 - shift-2</a><h3>Tom Hopkins</h3><a href="/DJF26/shifts/4-09/tom-hopkins/van-3-shift-2/index.html">van-3 - shift-2</a>
+        </div>
+        
+
+        <div class="date-card">
+            <h2>4/10</h2>
+            <a href="/DJF26/agendas/4-10/index.html" class="agenda-link">View Full Agenda</a>
+            <h3>Arturo Gomez</h3><a href="/DJF26/shifts/4-10/arturo-gomez/van-1-shift-1/index.html">van-1 - shift-1</a><h3>Colin Swihart</h3><a href="/DJF26/shifts/4-10/colin-swihart/van-2-shift-2/index.html">van-2 - shift-2</a><h3>Maggie Burns</h3><a href="/DJF26/shifts/4-10/maggie-burns/van-1-shift-2/index.html">van-1 - shift-2</a><h3>Mario Rivera</h3><a href="/DJF26/shifts/4-10/mario-rivera/van-2-shift-1/index.html">van-2 - shift-1</a><h3>Matt Herzberger</h3><a href="/DJF26/shifts/4-10/matt-herzberger/van-3-shift-1/index.html">van-3 - shift-1</a><a href="/DJF26/shifts/4-10/matt-herzberger/van-3-shift-2/index.html">van-3 - shift-2</a>
+        </div>
+        
+
+        <div class="date-card">
+            <h2>4/11</h2>
+            <a href="/DJF26/agendas/4-11/index.html" class="agenda-link">View Full Agenda</a>
+            <h3>Arturo Gomez</h3><a href="/DJF26/shifts/4-11/arturo-gomez/van-1-shift-1/index.html">van-1 - shift-1</a><h3>Colin Swihart</h3><a href="/DJF26/shifts/4-11/colin-swihart/van-1-shift-2/index.html">van-1 - shift-2</a><h3>Matt Herzberger</h3><a href="/DJF26/shifts/4-11/matt-herzberger/van-2-shift-1/index.html">van-2 - shift-1</a><h3>Nathan Roche</h3><a href="/DJF26/shifts/4-11/nathan-roche/van-3-shift-1/index.html">van-3 - shift-1</a><h3>Randy Russell</h3><a href="/DJF26/shifts/4-11/randy-russell/van-2-shift-2/index.html">van-2 - shift-2</a><h3>Unknown</h3><a href="/DJF26/shifts/4-11/unknown/van-1-shift-3/index.html">van-1 - shift-3</a><a href="/DJF26/shifts/4-11/unknown/van-2-shift-3/index.html">van-2 - shift-3</a>
+        </div>
+        
+
+        <div class="date-card">
+            <h2>4/12</h2>
+            <a href="/DJF26/agendas/4-12/index.html" class="agenda-link">View Full Agenda</a>
+            <h3>Jordan Lucoff</h3><a href="/DJF26/shifts/4-12/jordan-lucoff/van-2-shift-2/index.html">van-2 - shift-2</a><h3>Matt Herzberger</h3><a href="/DJF26/shifts/4-12/matt-herzberger/van-1-shift-2/index.html">van-1 - shift-2</a><a href="/DJF26/shifts/4-12/matt-herzberger/van-1-shift-3/index.html">van-1 - shift-3</a><h3>Unknown</h3><a href="/DJF26/shifts/4-12/unknown/van-1-shift-1/index.html">van-1 - shift-1</a><a href="/DJF26/shifts/4-12/unknown/van-2-shift-1/index.html">van-2 - shift-1</a>
+        </div>
+        
+    </div>
+    <footer>
+        <p>Generated 2026-04-10 14:47 • Internal Use Only</p>
+    </footer>
+</body>
+</html>

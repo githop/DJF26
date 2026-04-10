@@ -53,7 +53,7 @@ This will:
 │   ├── generate_sheets.py      # Driver sheet generator
 │   ├── generate_agenda.py      # Daily agenda generator
 │   └── build_site.py           # HTML site builder
-├── site/                       # Built HTML (served by GitHub Pages)
+├── docs/                       # Built HTML (served by GitHub Pages)
 ├── driver-sheets/              # Markdown intermediates (ignored)
 ├── daily-agendas/              # Markdown intermediates (ignored)
 ├── sync.sh                     # Main sync script
@@ -62,12 +62,12 @@ This will:
 
 ## Git Workflow
 
-Only the `site/` directory and Python scripts are tracked. CSVs and generated markdown are ignored because they can be rebuilt from source.
+Only the `docs/` directory and Python scripts are tracked. CSVs and generated markdown are ignored because they can be rebuilt from source.
 
 ## Troubleshooting
 
 **GitHub Pages 404?**
-- Ensure `site/` directory exists at repo root
+- Ensure `docs/` directory exists at repo root
 - Check Settings → Pages → Source is set to root
 - **Use trailing slashes**: `/shifts/` not `/shifts`
 - Or use explicit file: `/shifts/index.html`

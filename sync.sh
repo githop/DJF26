@@ -114,7 +114,7 @@ else
     CSV_CHANGES=$(git diff --cached --name-only | grep -c '\.csv$' 2>/dev/null || echo 0)
     MD_CHANGES=$(git diff --cached --name-only | grep -c '\.md$' 2>/dev/null || echo 0)
     DB_CHANGES=$(git diff --cached --name-only | grep -c '\.db$' 2>/dev/null || echo 0)
-    HTML_CHANGES=$(git diff --cached --name-only | grep 'site/' 2>/dev/null | wc -l | tr -d ' ')
+    HTML_CHANGES=$(git diff --cached --name-only | grep 'docs/' 2>/dev/null | wc -l | tr -d ' ')
     
     COMMIT_MSG="Sync: $TIMESTAMP"
     
