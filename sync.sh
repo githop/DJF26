@@ -32,15 +32,9 @@ for file in "${CSV_FILES[@]}"; do
     repo_path="$SCRIPT_DIR/$file"
     
     if [ -f "$downloads_path" ]; then
-        # Check if file is different from current
-        if [ ! -f "$repo_path" ] || ! diff -q "$downloads_path" "$repo_path" > /dev/null 2>&1; then
-            echo -e "  ${GREEN}✓${NC} New/updated: $file"
-            mv "$downloads_path" "$repo_path"
-            CSV_UPDATED=true
-        else
-            echo -e "  ${YELLOW}→${NC} No changes: $file (removing from Downloads)"
-            rm "$downloads_path"
-        fi
+        echo -e "  ${GREEN}✓${NC} Importing: $file"
+        mv "$downloads_path" "$repo_path"
+        CSV_UPDATED=true
     fi
 done
 

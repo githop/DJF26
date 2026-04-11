@@ -1,6 +1,6 @@
 # Colin Swihart - 4/11 (Saturday)
 
-## 2:20 PM - 6:15 PM
+## 2:20 PM - 7:00 PM
 
 Minivan 1 - Black Chrysler Pacifica - TMO-S1G
 
@@ -26,6 +26,10 @@ Dropoff Location: Warwick Hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Cleo Parker Robinson Dance -&gt; Warwick Hotel</a>
 
+### 6:50 PM: Transfer ELEW to hotel
+
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210&destination=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">Classic Piano of Denver -&gt; Crawford Hotel</a>
+
 # Locations
 
 
@@ -36,6 +40,10 @@ Dropoff Location: Warwick Hotel
 - Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
 - Dazzle Jazz Club — <a href="https://www.google.com/maps/search/?api=1&query=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1080 14th Street, Denver, CO 80202</a> Phone: 303-839-5100
+
+- Classic Piano of Denver — <a href="https://www.google.com/maps/search/?api=1&query=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">1332 S Broadway, Denver, CO 80210</a> Phone: 303-777-2636
+
+- Crawford Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1701 Wynkoop St, Denver, CO 80202</a> Phone: 720-460-3700
 
 
 # Contacts

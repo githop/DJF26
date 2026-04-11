@@ -1,4 +1,4 @@
-#  - 4/11 (Saturday)
+# Tom Hopkins - 4/11 (Saturday)
 
 ## 6:15 PM - 11:50 PM
 
