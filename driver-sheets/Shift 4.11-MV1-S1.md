@@ -1,6 +1,6 @@
 # Arturo Gomez - 4/11 (Saturday)
 
-## 7:25 AM - 11:45 AM
+## 7:25 AM - 1:00 PM
 
 Minivan 1 - Black Chrysler Pacifica - TMO-S1G
 
@@ -30,6 +30,10 @@ Dropoff Location: Warwick Hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202&destination=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">Embassy Suites Denver Downtown -&gt; Warwick Hotel</a>
 
+### 12:00 PM: Lobby Call: ELEW for travel to Classic Piano of Denver
+
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202&destination=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">Crawford Hotel -&gt; Classic Piano of Denver</a>
+
 # Locations
 
 
@@ -37,6 +41,10 @@ Dropoff Location: Warwick Hotel
 
 - Denver Airport — <a href="https://www.google.com/maps/search/?api=1&query=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">8500 Peña Blvd, Denver, CO 80249</a>
 - Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
+
+- Crawford Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1701%20Wynkoop%20St%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1701 Wynkoop St, Denver, CO 80202</a> Phone: 720-460-3700
+
+- Classic Piano of Denver — <a href="https://www.google.com/maps/search/?api=1&query=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">1332 S Broadway, Denver, CO 80210</a> Phone: 303-777-2636
 
 
 # Contacts
