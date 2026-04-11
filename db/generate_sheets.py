@@ -897,6 +897,8 @@ def check_uncovered_tasks(
     uncovered = []
     for row in all_tasks:
         task_start, activity, details, vehicle, notes = row
+        if not task_start:
+            continue
         t = parse_time(task_start)
         covered = False
 
