@@ -42,6 +42,11 @@ class GHPHanlder(http.server.SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    print("Cleaning old files...")
+    for folder in ["driver-sheets", "daily-agendas"]:
+        for f in (REPO_ROOT / folder).glob("*.md"):
+            f.unlink()
+
     print("Generating sheets and agendas...")
     dates = ["4/7", "4/8", "4/9", "4/10", "4/11", "4/12"]
     for date in dates:

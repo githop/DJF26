@@ -466,12 +466,15 @@ def build_site():
     """Main build function."""
     print("Building DJF26 Driver Portal...")
 
-    # Clean and recreate site directory
+    # Clean and recreate site directory, including markdown directories
     if SITE_DIR.exists():
         import shutil
 
         shutil.rmtree(SITE_DIR)
     SITE_DIR.mkdir(parents=True)
+
+    # Note: the caller (serve_docs.py) is responsible for clearing driver-sheets/ and daily-agendas/
+    # if it wants a full fresh regeneration from the DB.
 
     # Disable Jekyll on GitHub Pages
     (SITE_DIR / ".nojekyll").touch()
