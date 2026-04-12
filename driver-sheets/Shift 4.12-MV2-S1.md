@@ -12,9 +12,9 @@ Dropoff Location: Warwick Hotel
 # Use the EZPass toll lane
 
 
-### 3:30 PM: Transfer Yoshi Kato to Venue
+### 3:15 PM: Lobby Call: Fred Hersch, Drew Gress, Johnathan Blake to venue
 
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210&destination=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">Classic Piano of Denver -&gt; Cleo Parker Robinson Dance</a>
+- <a href="https://www.google.com/maps/dir/?api=1&origin=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206&destination=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246" target="_blank" rel="noopener noreferrer">Hotel Clio -&gt; Mizel Arts & Culture Center at the JCC Denver</a>
 
 ### 4:45 PM: Transfer Yoshi Kato to Venue
 
@@ -29,7 +29,9 @@ Dropoff Location: Warwick Hotel
 
 - Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
-- Classic Piano of Denver — <a href="https://www.google.com/maps/search/?api=1&query=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">1332 S Broadway, Denver, CO 80210</a> Phone: 303-777-2636
+- Hotel Clio — <a href="https://www.google.com/maps/search/?api=1&query=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206" target="_blank" rel="noopener noreferrer">150 Clayton Ln, Denver, CO 80206</a> Phone: 303-316-2700
+
+- Mizel Arts & Culture Center at the JCC Denver — <a href="https://www.google.com/maps/search/?api=1&query=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246" target="_blank" rel="noopener noreferrer">350 S Dahlia St, Denver, CO 80246</a> Phone: 303-399-2660
 
 - Cleo Parker Robinson Dance — <a href="https://www.google.com/maps/search/?api=1&query=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">2025 N Washington St. Denver, Colorado 80205</a> Phone: 303-295-1759
 
@@ -38,6 +40,8 @@ Dropoff Location: Warwick Hotel
 
 # Contacts
 
+
+- Fred  Hersch: [917-494-4165](tel:9174944165)
 
 - Yoshi Kato: [408 390 7029](tel:4083907029)
 - GTC Contact: Tom [513-675-4467](tel:5136754467)

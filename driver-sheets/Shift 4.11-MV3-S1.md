@@ -44,8 +44,6 @@ Dropoff Location: Embassy Suites Denver Downtown
 
 - Donovan Cheatham: [804-513-9768](tel:8045139768)
 
-- Elisabeth Oei: [818-300-5979](tel:8183005979)
-
 - Amina Scott: [510-499-6648](tel:5104996648)
 - GTC Contact: Tom [513-675-4467](tel:5136754467)
 - Adi Diner: [917-494-2896](tel:9174942896)

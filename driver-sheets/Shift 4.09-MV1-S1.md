@@ -39,6 +39,8 @@ Dropoff Location: Warwick Hotel
 # Locations
 
 
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
+
 - Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
 
 - MSU Denver Music: Kalamath Building — <a href="https://www.google.com/maps/search/?api=1&query=1150%2010th%20Street%20Plaza%2C%20Denver%20CO%2080204" target="_blank" rel="noopener noreferrer">1150 10th Street Plaza, Denver CO 80204</a> Phone: 303-615-0388
@@ -46,8 +48,6 @@ Dropoff Location: Warwick Hotel
 - Dazzle Jazz Club — <a href="https://www.google.com/maps/search/?api=1&query=1080%2014th%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1080 14th Street, Denver, CO 80202</a> Phone: 303-839-5100
 
 - Classic Piano of Denver — <a href="https://www.google.com/maps/search/?api=1&query=1332%20S%20Broadway%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">1332 S Broadway, Denver, CO 80210</a> Phone: 303-777-2636
-
-- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
 
 # Contacts

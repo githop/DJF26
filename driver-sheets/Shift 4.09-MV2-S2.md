@@ -37,6 +37,8 @@ Dropoff Location: Warwick Hotel
 # Locations
 
 
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
+
 - Denver Airport — <a href="https://www.google.com/maps/search/?api=1&query=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">8500 Peña Blvd, Denver, CO 80249</a>
 - Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
 
@@ -44,15 +46,13 @@ Dropoff Location: Warwick Hotel
 
 - Newman Center — <a href="https://www.google.com/maps/search/?api=1&query=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">2344 E Iliff Avenue, Denver, CO 80210</a> Phone: 303-871-7720
 
-- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
-
 
 # Contacts
 
 
-- Elisabeth Oei: [818-300-5979](tel:8183005979)
-
 - Andrew Renfroe: [561-222-9101](tel:5612229101)
+
+- Elisabeth Oei: [818-300-5979](tel:8183005979)
 
 - Bob James: [231-252-6125](tel:2312526125)
 
@@ -83,7 +83,7 @@ Send this to the driver after their flight has landed.
 </div>
 
 
-## Elisabeth Oei - 818-300-5979
+## Elizabeth Oei - Unknown
 
 <div class="message-box">
   <div class="message-text">Hi, it's Randy Russell. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a White Chrysler Pacifica, license plate #EKO-Y02. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.</div>

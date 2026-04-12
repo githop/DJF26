@@ -20,10 +20,6 @@ Dropoff Location: Warwick Hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=200%20E%20South%20Boulder%20Rd%2C%20Lafayette%2C%20CO%2080026" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; The Muse Performance Space</a>
 
-### 4:10 PM: Lobby Call: Fred Hersch, Drew Gress, Johnathan Blake to venue
-
-- <a href="https://www.google.com/maps/dir/?api=1&origin=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206&destination=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246" target="_blank" rel="noopener noreferrer">Hotel Clio -&gt; Mizel Arts & Culture Center at the JCC Denver</a>
-
 # Locations
 
 
@@ -33,8 +29,6 @@ Dropoff Location: Warwick Hotel
 - Hotel Clio — <a href="https://www.google.com/maps/search/?api=1&query=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206" target="_blank" rel="noopener noreferrer">150 Clayton Ln, Denver, CO 80206</a> Phone: 303-316-2700
 
 - The Muse Performance Space — <a href="https://www.google.com/maps/search/?api=1&query=200%20E%20South%20Boulder%20Rd%2C%20Lafayette%2C%20CO%2080026" target="_blank" rel="noopener noreferrer">200 E South Boulder Rd, Lafayette, CO 80026</a> Phone: 720-352-4327
-
-- Mizel Arts & Culture Center at the JCC Denver — <a href="https://www.google.com/maps/search/?api=1&query=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246" target="_blank" rel="noopener noreferrer">350 S Dahlia St, Denver, CO 80246</a> Phone: 303-399-2660
 
 
 # Contacts

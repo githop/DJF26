@@ -43,11 +43,11 @@ Dropoff Location: Embassy Suites Denver Downtown
 # Locations
 
 
+- Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
+
 - Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
 - Newman Center — <a href="https://www.google.com/maps/search/?api=1&query=2344%20E%20Iliff%20Avenue%2C%20Denver%2C%20CO%2080210" target="_blank" rel="noopener noreferrer">2344 E Iliff Avenue, Denver, CO 80210</a> Phone: 303-871-7720
-
-- Embassy Suites Denver Downtown — <a href="https://www.google.com/maps/search/?api=1&query=1420%20Stout%20Street%2C%20Denver%2C%20CO%2080202" target="_blank" rel="noopener noreferrer">1420 Stout Street, Denver, CO 80202</a> Phone: 303-592-1000
 
 - Cleo Parker Robinson Dance — <a href="https://www.google.com/maps/search/?api=1&query=2025%20N%20Washington%20St.%20Denver%2C%20Colorado%2080205" target="_blank" rel="noopener noreferrer">2025 N Washington St. Denver, Colorado 80205</a> Phone: 303-295-1759
 
@@ -69,8 +69,6 @@ Dropoff Location: Embassy Suites Denver Downtown
 - Andrew Renfroe: [561-222-9101](tel:5612229101)
 
 - Donovan Cheatham: [804-513-9768](tel:8045139768)
-
-- Elizabeth Teklits: [312-858-2477](tel:3128582477)
 
 - Terreon Gully: [917-754-6193‬](tel:9177546193)
 
