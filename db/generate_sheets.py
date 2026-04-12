@@ -326,10 +326,6 @@ def find_flight_for_task(gt_details: str, flight_rows: list[dict]) -> str:
         if any(first_name in n for n in row["names"]):
             return row["flight_num"]
     return ""
-    for row in flight_rows:
-        if any(first_name in n for n in row["names"]):
-            return row["flight_num"]
-    return ""
 
 
 def get_address_lookup(conn: sqlite3.Connection) -> dict[str, dict[str, str]]:
@@ -522,16 +518,11 @@ def find_contact_for_name(
             and len(first_name) > 2
             and len(contact_first) > 2
         ):
-            # Check for similar first names (e.g., Elizabeth vs Elisabeth, Jon vs John)
-            if (
-                first_name in contact_first
-                or contact_first in first_name
-                or first_name[0] == contact_first[0]
-            ):  # Same first letter
-                # Calculate similarity
+            # Same first letter + high character overlap
+            if first_name[0] == contact_first[0]:
                 common = set(first_name) & set(contact_first)
                 total = set(first_name) | set(contact_first)
-                if total and len(common) / len(total) > 0.7:  # 70% character overlap
+                if total and len(common) / len(total) > 0.8:
                     score += 7
 
         # Last name match (exact or similar)
@@ -541,100 +532,41 @@ def find_contact_for_name(
             elif last_name in contact_last or contact_last in last_name:
                 score += 5
             else:
-                # Check for typos/similar last names (e.g., Smith vs Smyth)
                 common = set(last_name) & set(contact_last)
                 total = set(last_name) | set(contact_last)
-                if total and len(common) / len(total) > 0.8:  # 80% character overlap
+                if total and len(common) / len(total) > 0.8:
                     score += 3
 
         if score > best_score:
             best_score = score
             best_match = info
 
-    # Require at least similar first name + exact last name match
-    # (e.g., Elizabeth Oei -> Elisabeth Oei should score 7 + 10 = 17)
-    if best_score >= 12:
-        return best_match
-
-    # Try matching by first name only (if unique in contacts)
-    # Also try similar first names
-    for fn_key, info in first_name_lookup.items():
-        if first_name == fn_key:
-            return info
-        # Check for similar spellings
-        if len(first_name) > 2 and len(fn_key) > 2:
-            if first_name[0] == fn_key[0]:  # Same first letter
-                common = set(first_name) & set(fn_key)
-                total = set(first_name) | set(fn_key)
-                if total and len(common) / len(total) > 0.8:
-                    return info
-
-    # Try partial full name match (substring)
-    for full_name, info in full_name_lookup.items():
-        if name_lower in full_name or full_name in name_lower:
-            return info
-
-    return None
-
-    # Try exact full name match
-    if name_lower in full_name_lookup:
-        return full_name_lookup[name_lower]
-
-    # Split input name into parts
-    name_parts = name_lower.split()
-    first_name = name_parts[0] if name_parts else ""
-    last_name = name_parts[-1] if len(name_parts) > 1 else ""
-
-    # Try fuzzy matching: same first name + same/similar last name
-    best_match = None
-    best_score = 0
-
-    for full_name, info in full_name_lookup.items():
-        contact_parts = full_name.split()
-        contact_first = contact_parts[0] if contact_parts else ""
-        contact_last = contact_parts[-1] if len(contact_parts) > 1 else ""
-
-        score = 0
-
-        # First name match (exact or very similar)
-        if first_name == contact_first:
-            score += 10
-        elif (
-            first_name
-            and contact_first
-            and (
-                first_name[0] == contact_first[0]
-                and len(first_name) > 2
-                and len(contact_first) > 2
-                and (first_name in contact_first or contact_first in first_name)
-            )
-        ):
-            # Similar first names (e.g., Elizabeth vs Elisabeth)
-            score += 8
-
-        # Last name match (exact or similar)
-        if last_name and contact_last:
-            if last_name == contact_last:
-                score += 10
-            elif last_name in contact_last or contact_last in last_name:
-                score += 5
-
-        if score > best_score:
-            best_score = score
-            best_match = info
-
-    # Require at least a first name match + partial last name match
+    # Require at least similar first name + exact last name match (17)
+    # or exact first name + similar last name match (15)
     if best_score >= 15:
         return best_match
 
-    # Try matching by first name only (if unique)
+    # Try matching by first name only (if unique in contacts)
+    # ONLY if no last name was provided in the input, OR if it's an exact match
     if first_name in first_name_lookup:
-        return first_name_lookup[first_name]
+        info = first_name_lookup[first_name]
+        # If we have a last name in input, it must match the contact's last name
+        if last_name:
+            contact_last_name = info["name"].lower().split()[-1]
+            if last_name != contact_last_name:
+                # Last name mismatch, don't use the first-name-only match
+                pass
+            else:
+                return info
+        else:
+            return info
 
-    # Try partial full name match (substring)
+    # Try partial full name match (substring) ONLY as a last resort
     for full_name, info in full_name_lookup.items():
         if name_lower in full_name or full_name in name_lower:
-            return info
+            # Basic validation: must at least share the first name
+            if first_name in full_name:
+                return info
 
     return None
 
@@ -761,6 +693,11 @@ def build_sheet(
 
     # --- unique locations (origins + destinations) -------------------------
     seen = {}
+    # Include shift-level locations if provided
+    for loc in (shift["Location"], shift["Destination"]):
+        if loc and loc not in seen:
+            seen[loc] = address_lookup.get(loc, {"address": "", "phone": ""})
+
     for t in tasks:
         for loc in (t["Location"], t["Destination"]):
             if loc and loc not in seen:
@@ -852,9 +789,11 @@ def render(context: dict, template_src: str) -> str:
 # ---------------------------------------------------------------------------
 def vehicle_to_slug(vehicle: str) -> str:
     """'Minivan 1' → 'MV1', 'Minivan 2' → 'MV2'"""
-    # Strip 'Minivan ' prefix and any surrounding whitespace
-    num = re.sub(r"(?i)minivan\s*", "", vehicle).strip()
-    return f"MV{num}"
+    if "minivan" in vehicle.lower():
+        num = re.sub(r"(?i)minivan\s*", "", vehicle).strip()
+        return f"MV{num}"
+    # For other vehicles (e.g. "Don's Car"), just use the name without spaces
+    return re.sub(r"\s+", "", vehicle)
 
 
 def output_filename(date_prefix: str, vehicle: str, shift_num: int) -> str:
@@ -967,7 +906,12 @@ def main():
 
     generated = []
     for shift in shifts:
-        vehicle = shift["Vehicles"]
+        driver = shift["Drivers"] or ""
+        vehicle = shift["Vehicles"] or ""
+
+        if not driver and not vehicle:
+            continue
+
         vehicle_shift_counter[vehicle] = vehicle_shift_counter.get(vehicle, 0) + 1
         shift_num = vehicle_shift_counter[vehicle]
 

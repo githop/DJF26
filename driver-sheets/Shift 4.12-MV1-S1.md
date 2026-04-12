@@ -27,10 +27,10 @@ Dropoff Location: Warwick Hotel
 # Locations
 
 
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
+
 - Denver Airport — <a href="https://www.google.com/maps/search/?api=1&query=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">8500 Peña Blvd, Denver, CO 80249</a>
 - Hotel Clio — <a href="https://www.google.com/maps/search/?api=1&query=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206" target="_blank" rel="noopener noreferrer">150 Clayton Ln, Denver, CO 80206</a> Phone: 303-316-2700
-
-- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
 
 - The Muse Performance Space — <a href="https://www.google.com/maps/search/?api=1&query=200%20E%20South%20Boulder%20Rd%2C%20Lafayette%2C%20CO%2080026" target="_blank" rel="noopener noreferrer">200 E South Boulder Rd, Lafayette, CO 80026</a> Phone: 720-352-4327
 
@@ -41,8 +41,6 @@ Dropoff Location: Warwick Hotel
 
 
 - Fred  Hersch: [917-494-4165](tel:9174944165)
-
-- Jonah Atwood: [732-216-8751](tel:7322168751)
 
 - Ingrid Jensen: [646-298-6843](tel:6462986843)
 
@@ -77,7 +75,7 @@ Send this to the driver after their flight has landed.
 </div>
 
 
-## Jonah Atwood - 732-216-8751
+## Johnathan Blake - Unknown
 
 <div class="message-box">
   <div class="message-text">Hi, it's Matt Herzberger. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a Black Chrysler Pacifica, license plate #TMO-S1G. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.</div>
