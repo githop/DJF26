@@ -1,4 +1,4 @@
-#  - 4/12 (Sunday)
+# Maggie Burns - 4/12 (Sunday)
 
 ## 3:00 PM - 6:30 PM
 
