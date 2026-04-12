@@ -12,6 +12,10 @@ Dropoff Location: Warwick Hotel
 # Use the EZPass toll lane
 
 
+### 8:00 PM: Lobby Call: Yoshi Kato to airport
+
+- <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Denver Airport</a>
+- Flight: <a href="https://flightaware.com/live/flight/UAL3439" target="_blank" rel="noopener noreferrer">UA 3439</a> → Door 610 (West)
 ### 9:00 PM: Transfer Fred Hersch, Drew Gress, Johnathan Blake to hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246&destination=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206" target="_blank" rel="noopener noreferrer">Mizel Arts & Culture Center at the JCC Denver -&gt; Hotel Clio</a>
@@ -24,6 +28,9 @@ Dropoff Location: Warwick Hotel
 # Locations
 
 
+- Warwick Hotel — <a href="https://www.google.com/maps/search/?api=1&query=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203" target="_blank" rel="noopener noreferrer">1776 N Grant St, Denver, CO 80203</a> Phone: 303-861-2000
+
+- Denver Airport — <a href="https://www.google.com/maps/search/?api=1&query=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">8500 Peña Blvd, Denver, CO 80249</a>
 - Mizel Arts & Culture Center at the JCC Denver — <a href="https://www.google.com/maps/search/?api=1&query=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246" target="_blank" rel="noopener noreferrer">350 S Dahlia St, Denver, CO 80246</a> Phone: 303-399-2660
 
 - Hotel Clio — <a href="https://www.google.com/maps/search/?api=1&query=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206" target="_blank" rel="noopener noreferrer">150 Clayton Ln, Denver, CO 80206</a> Phone: 303-316-2700
@@ -33,6 +40,7 @@ Dropoff Location: Warwick Hotel
 
 # Contacts
 
+- Yoshi Kato: Unknown
 
 - Fred  Hersch: [917-494-4165](tel:9174944165)
 
