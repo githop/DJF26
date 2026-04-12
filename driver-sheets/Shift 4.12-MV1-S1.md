@@ -1,6 +1,6 @@
 # Matt Herzberger - 4/12 (Sunday)
 
-## 12:15 PM - 6:00 PM
+## 12:15 PM - 5:00 PM
 
 Minivan 1 - Black Chrysler Pacifica - TMO-S1G
 
