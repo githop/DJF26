@@ -57,7 +57,8 @@ Dropoff Location: Embassy Suites Denver Downtown
 - Ava DiSimone: [330-284-1538](tel:3302841538)
 
 - Terreon Gully: [917-754-6193‬](tel:9177546193)
-- Yoshi Kato: Unknown
+
+- Yoshi Kato: [408 390 7029](tel:4083907029)
 - GTC Contact: Tom [513-675-4467](tel:5136754467)
 - Adi Diner: [917-494-2896](tel:9174942896)
 

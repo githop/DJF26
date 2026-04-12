@@ -4,7 +4,7 @@
 
 **Database**: `db/master_schedule.db` (SQLite)  
 **Table**: `schedule`  
-**Key columns**: Date, Start, End, Activity, Details, Location, Location Address, Location Destination, Pax, Vehicles, Drivers, Notes
+**Key columns**: Date, Start, End, Activity, Details, Location, Origin Address, Destination, Pax, Vehicles, Drivers, Notes
 
 If the CSV has been updated, refresh the database: `python3 db/migrate_csv.py`
 
@@ -48,7 +48,7 @@ Find GT tasks for a shift:
 
 ```bash
 sqlite3 db/master_schedule.db "
-SELECT gt.Start, gt.Activity, gt.Details, gt.Location, gt.\"Location Destination\", gt.Pax, gt.Notes
+SELECT gt.Start, gt.Activity, gt.Details, gt.Location, gt.Destination, gt.Pax, gt.Notes
 FROM schedule gt
 WHERE gt.Date = '4/8 (Wednesday)'
   AND gt.Activity IN ('GT (People)', 'GT (Asset)')
@@ -100,7 +100,7 @@ The message is automatically populated with:
 ## Tips
 
 - Use `Details` as the authoritative description of who is being transported. Do **not** use `Artist/Group` — it refers to the act/billing, not the individuals in the vehicle.
-- Always double-quote column names with spaces: `"Location Address"`, `"Location Destination"`, `"Artist/Group"`
+- Always double-quote column names with spaces: `"Origin Address"`, `"Artist/Group"`
 - After generating all files, flag any GT tasks whose `Start` falls outside all defined shift windows, and any tasks handled outside the driver system (e.g., "Adi to do", personal cars)
 
 ## File Structure

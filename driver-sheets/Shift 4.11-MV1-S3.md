@@ -47,7 +47,8 @@ Dropoff Location: Warwick Hotel
 
 # Contacts
 
-- Yoshi Kato: Unknown
+
+- Yoshi Kato: [408 390 7029](tel:4083907029)
 
 - Jose James: [917-498-9008](tel:9174989008)
 - Ebban Dorsey: Unknown

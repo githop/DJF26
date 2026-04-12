@@ -68,7 +68,8 @@ Dropoff Location: Warwick Hotel
 - Donovan Cheatham: [804-513-9768](tel:8045139768)
 
 - Elizabeth Teklits: [312-858-2477](tel:3128582477)
-- Yoshi Kato: Unknown
+
+- Yoshi Kato: [408 390 7029](tel:4083907029)
 
 - Terreon Gully: [917-754-6193‬](tel:9177546193)
 - GTC Contact: Tom [513-675-4467](tel:5136754467)

@@ -60,7 +60,8 @@ Dropoff Location: Warwick Hotel
 - Mark Turner: Unknown
 
 - Ben Williams: [202-251-2534](tel:2022512534)
-- Yoshi Kato: Unknown
+
+- Yoshi Kato: [408 390 7029](tel:4083907029)
 
 - Jon Wikan: [646-298-6878](tel:6462986878)
 - GTC Contact: Tom [513-675-4467](tel:5136754467)

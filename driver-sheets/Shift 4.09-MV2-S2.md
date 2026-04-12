@@ -63,7 +63,8 @@ Dropoff Location: Warwick Hotel
 - John Mahon: [747-222-9111](tel:7472229111)
 
 - Ava DiSimone: [330-284-1538](tel:3302841538)
-- Yoshi Kato: Unknown
+
+- Yoshi Kato: [408 390 7029](tel:4083907029)
 - GTC Contact: Tom [513-675-4467](tel:5136754467)
 - Adi Diner: [917-494-2896](tel:9174942896)
 

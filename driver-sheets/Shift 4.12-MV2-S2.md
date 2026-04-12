@@ -40,7 +40,8 @@ Dropoff Location: Warwick Hotel
 
 # Contacts
 
-- Yoshi Kato: Unknown
+
+- Yoshi Kato: [408 390 7029](tel:4083907029)
 
 - Fred  Hersch: [917-494-4165](tel:9174944165)
 

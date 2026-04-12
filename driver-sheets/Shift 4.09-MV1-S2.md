@@ -64,7 +64,8 @@ Dropoff Location: Warwick Hotel
 - John Mahon: [747-222-9111](tel:7472229111)
 
 - Ava DiSimone: [330-284-1538](tel:3302841538)
-- Yoshi Kato: Unknown
+
+- Yoshi Kato: [408 390 7029](tel:4083907029)
 
 - Rodney Whitaker: [313-492-5418](tel:3134925418)
 

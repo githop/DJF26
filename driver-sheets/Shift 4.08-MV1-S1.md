@@ -58,7 +58,8 @@ Dropoff Location: Warwick Hotel
 - Michael Dease: [917-543-2960](tel:9175432960)
 
 - Randy Napoleon: [917-535-4577](tel:9175354577)
-- Yoshi Kato: Unknown
+
+- Yoshi Kato: [408 390 7029](tel:4083907029)
 
 - John Mahon: [747-222-9111](tel:7472229111)
 - GTC Contact: Tom [513-675-4467](tel:5136754467)
@@ -95,7 +96,7 @@ Send this to the driver after their flight has landed.
 </div>
 
 
-## Yoshi Kato - Unknown
+## Yoshi Kato - 408 390 7029
 
 <div class="message-box">
   <div class="message-text">Hi, it's Mario Rivera. I'm a Denver Jazz Fest driver and will pick you up and take you to your hotel. Once you've collected your bags, please meet me on the 6th floor (departures level). I'm in a Black Chrysler Pacifica, license plate #TMO-S1G. Please text me when you have collected your bags, and I will pick you up near Door 610 (West), 5-10 minutes later.</div>

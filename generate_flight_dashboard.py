@@ -11,13 +11,13 @@ from datetime import datetime
 
 # IATA (2-letter) to ICAO (3-letter) airline code mapping
 IATA_TO_ICAO = {
-    'UA': 'UAL',  # United Airlines
-    'DL': 'DAL',  # Delta Air Lines
-    'AS': 'ASA',  # Alaska Airlines
-    'WN': 'SWA',  # Southwest Airlines
-    'AA': 'AAL',  # American Airlines
-    'B6': 'JBU',  # JetBlue
-    'F9': 'FFT',  # Frontier Airlines
+    "UA": "UAL",  # United Airlines
+    "DL": "DAL",  # Delta Air Lines
+    "AS": "ASA",  # Alaska Airlines
+    "WN": "SWA",  # Southwest Airlines
+    "AA": "AAL",  # American Airlines
+    "B6": "JBU",  # JetBlue
+    "F9": "FFT",  # Frontier Airlines
 }
 
 
@@ -25,7 +25,7 @@ def extract_flight_number(details):
     """Extract flight number from details like 'arrive in Denver (UA 2660)'"""
     if not details:
         return None, None
-    match = re.search(r'\(([A-Z]{2})\s*(\d+)\)', details)
+    match = re.search(r"\(([A-Z]{2})\s*(\d+)\)", details)
     if match:
         iata_code = match.group(1)
         number = match.group(2)
@@ -40,7 +40,7 @@ def extract_flight_number(details):
 def extract_artist_names(artist_field, details):
     """Extract artist names from both fields"""
     names = []
-    if artist_field and artist_field != '-':
+    if artist_field and artist_field != "-":
         names.append(artist_field)
     return names
 
@@ -48,20 +48,20 @@ def extract_artist_names(artist_field, details):
 def determine_flight_type(details):
     """Determine if it's arrival or departure"""
     if not details:
-        return 'Unknown'
+        return "Unknown"
     details_lower = details.lower()
-    if 'arrive' in details_lower:
-        return 'Arrival'
-    elif 'depart' in details_lower:
-        return 'Departure'
-    return 'Unknown'
+    if "arrive" in details_lower:
+        return "Arrival"
+    elif "depart" in details_lower:
+        return "Departure"
+    return "Unknown"
 
 
 def format_date_sort_key(date_str):
     """Convert date string like '4/6 (Monday)' to sortable format"""
     try:
         # Extract month/day from format like "4/6 (Monday)"
-        match = re.match(r'(\d+)/(\d+)', date_str)
+        match = re.match(r"(\d+)/(\d+)", date_str)
         if match:
             month = int(match.group(1))
             day = int(match.group(2))
@@ -74,12 +74,12 @@ def format_date_sort_key(date_str):
 
 def get_flight_data():
     """Fetch all flight data from the database"""
-    conn = sqlite3.connect('db/master_schedule.db')
+    conn = sqlite3.connect("db/master_schedule.db")
     cursor = conn.cursor()
 
     cursor.execute("""
         SELECT Date, Start, End, Activity, Details, Location, 
-               "Location Address", "Location Destination", "Artist/Group", 
+               "Origin Address", "Destination", "Artist/Group", 
                Pax, Vehicles, Drivers, Notes
         FROM schedule 
         WHERE Activity = 'Flight'
@@ -88,9 +88,21 @@ def get_flight_data():
 
     flights = []
     for row in cursor.fetchall():
-        (date, start, end, activity, details, location,
-         location_addr, location_dest, artist_group, pax,
-         vehicles, drivers, notes) = row
+        (
+            date,
+            start,
+            end,
+            activity,
+            details,
+            location,
+            location_addr,
+            location_dest,
+            artist_group,
+            pax,
+            vehicles,
+            drivers,
+            notes,
+        ) = row
 
         flight_num_iata, flight_num_icao = extract_flight_number(details)
         flight_type = determine_flight_type(details)
@@ -101,21 +113,23 @@ def get_flight_data():
             # FlightAware URL format: https://flightaware.com/live/flight/UAL2660
             flightaware_link = f"https://flightaware.com/live/flight/{flight_num_icao}"
 
-        flights.append({
-            'date': date,
-            'date_sort': format_date_sort_key(date),
-            'time': start or 'TBD',
-            'type': flight_type,
-            'details': details or '',
-            'artist_group': artist_group or '',
-            'location': location or '',
-            'address': location_addr or '',
-            'flight_number': flight_num_iata,  # Display the IATA version (UA2643)
-            'flight_number_icao': flight_num_icao,  # ICAO version for links
-            'flightaware_link': flightaware_link,
-            'drivers': drivers or '',
-            'notes': notes or ''
-        })
+        flights.append(
+            {
+                "date": date,
+                "date_sort": format_date_sort_key(date),
+                "time": start or "TBD",
+                "type": flight_type,
+                "details": details or "",
+                "artist_group": artist_group or "",
+                "location": location or "",
+                "address": location_addr or "",
+                "flight_number": flight_num_iata,  # Display the IATA version (UA2643)
+                "flight_number_icao": flight_num_icao,  # ICAO version for links
+                "flightaware_link": flightaware_link,
+                "drivers": drivers or "",
+                "notes": notes or "",
+            }
+        )
 
     conn.close()
     return flights
@@ -127,7 +141,7 @@ def generate_html(flights):
     # Group flights by date for the display
     flights_by_date = {}
     for flight in flights:
-        date = flight['date']
+        date = flight["date"]
         if date not in flights_by_date:
             flights_by_date[date] = []
         flights_by_date[date].append(flight)
@@ -135,7 +149,7 @@ def generate_html(flights):
     # Convert to JSON for JavaScript search
     flights_json = json.dumps(flights)
 
-    html = f'''<!DOCTYPE html>
+    html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -696,7 +710,7 @@ def generate_html(flights):
     </script>
 </body>
 </html>
-'''
+"""
 
     return html
 
@@ -710,13 +724,13 @@ def main():
     print("Generating HTML dashboard...")
     html = generate_html(flights)
 
-    output_file = 'flight_dashboard.html'
-    with open(output_file, 'w', encoding='utf-8') as f:
+    output_file = "flight_dashboard.html"
+    with open(output_file, "w", encoding="utf-8") as f:
         f.write(html)
 
     print(f"Dashboard created: {output_file}")
     print(f"Open this file in your browser to view the dashboard")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

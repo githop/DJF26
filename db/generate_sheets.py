@@ -140,7 +140,7 @@ def format_time_ampm(s: str) -> str:
 def get_driver_shifts(conn: sqlite3.Connection, date: str) -> list[dict]:
     cur = conn.execute(
         """
-        SELECT Drivers, Vehicles, Start, "End", Location, "Location Destination"
+        SELECT Drivers, Vehicles, Start, "End", Location, "Destination"
         FROM schedule
         WHERE Date = ?
           AND Activity IN ('Staff: Driver', 'Driver Volunteer Shift')
@@ -197,7 +197,7 @@ def get_gt_tasks(
         cur = conn.execute(
             """
             SELECT Start, "End", Activity, Details, Location,
-                   "Location Destination", Pax, Notes, Vehicles
+                   "Destination", Pax, Notes, Vehicles
             FROM schedule
             WHERE Date = ?
               AND Activity IN ('GT (People)', 'GT (Asset)')
@@ -669,8 +669,7 @@ def build_sheet(
     task_rows = []
     for t in tasks:
         is_airport_task = (
-            t["Location"] == AIRPORT_LOCATION
-            or t["Location Destination"] == AIRPORT_LOCATION
+            t["Location"] == AIRPORT_LOCATION or t["Destination"] == AIRPORT_LOCATION
         )
         flight = (
             find_flight_for_task(t["Details"] or "", flight_rows)
@@ -680,7 +679,7 @@ def build_sheet(
         door = get_door_for_flight(flight) if flight else ""
 
         origin_name = t["Location"] or ""
-        dest_name = t["Location Destination"] or ""
+        dest_name = t["Destination"] or ""
         origin_query = address_lookup.get(origin_name, {}).get("address") or origin_name
         dest_query = address_lookup.get(dest_name, {}).get("address") or dest_name
 
@@ -749,7 +748,7 @@ def build_sheet(
                 "activity": t["Activity"],
                 "details": t["Details"] or "",
                 "location": t["Location"] or "",
-                "destination": t["Location Destination"] or "",
+                "destination": t["Destination"] or "",
                 "notes": t["Notes"] or "",
                 "is_airport_pickup": is_airport_task,
                 "flight": flight,
@@ -763,7 +762,7 @@ def build_sheet(
     # --- unique locations (origins + destinations) -------------------------
     seen = {}
     for t in tasks:
-        for loc in (t["Location"], t["Location Destination"]):
+        for loc in (t["Location"], t["Destination"]):
             if loc and loc not in seen:
                 seen[loc] = address_lookup.get(loc, {"address": "", "phone": ""})
 
@@ -817,7 +816,7 @@ def build_sheet(
         "shift_start": format_time_ampm(shift["Start"]),
         "shift_end": format_time_ampm(shift["End"]),
         "pickup_location": shift["Location"] or "TBD",
-        "dropoff_location": shift["Location Destination"] or "TBD",
+        "dropoff_location": shift["Destination"] or "TBD",
         "tasks": task_rows,
         "locations": location_rows,
         "contacts": contact_rows,
@@ -952,7 +951,8 @@ def main():
 
     shifts = get_driver_shifts(conn, date)
     if not shifts:
-        sys.exit(f"No driver shifts found for '{date}'.")
+        print(f"No driver shifts found for '{date}'.")
+        return
 
     prev_overnight_shifts = get_overnight_shifts_from_prev_date(conn, date)
     nxt = next_date(date)

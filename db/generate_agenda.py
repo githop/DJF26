@@ -105,7 +105,7 @@ def format_time_ampm(s: str) -> str:
 def get_driver_shifts(conn: sqlite3.Connection, date: str) -> list[dict]:
     cur = conn.execute(
         """
-        SELECT Drivers, Vehicles, Start, "End", Location, "Location Destination"
+        SELECT Drivers, Vehicles, Start, "End", Location, "Destination"
         FROM schedule
         WHERE Date = ?
           AND Activity IN ('Staff: Driver', 'Driver Volunteer Shift')
@@ -145,7 +145,7 @@ def get_gt_tasks(
         cur = conn.execute(
             """
             SELECT Start, "End", Activity, Details, Location,
-                   "Location Destination", Pax, Notes, Vehicles
+                   "Destination", Pax, Notes, Vehicles
             FROM schedule
             WHERE Date = ?
               AND Activity IN ('GT (People)', 'GT (Asset)')
@@ -188,7 +188,7 @@ def get_all_gt_tasks(conn: sqlite3.Connection, date: str) -> list[dict]:
     cur = conn.execute(
         """
         SELECT Start, "End", Activity, Details, Location,
-               "Location Destination", Pax, Notes, Vehicles
+               "Destination", Pax, Notes, Vehicles
         FROM schedule
         WHERE Date = ?
           AND Activity IN ('GT (People)', 'GT (Asset)')
@@ -331,7 +331,7 @@ def build_agenda_context(conn: sqlite3.Connection, date: str) -> dict:
                     "start": format_time_ampm(t["Start"]),
                     "details": t["Details"] or "",
                     "origin": t["Location"] or "",
-                    "destination": t["Location Destination"] or "",
+                    "destination": t["Destination"] or "",
                     "pax": t["Pax"] or "",
                     "notes": t["Notes"] or "",
                 }
@@ -348,7 +348,7 @@ def build_agenda_context(conn: sqlite3.Connection, date: str) -> dict:
             "start": format_time_ampm(shift["Start"]),
             "end": format_time_ampm(shift["End"]),
             "pickup": shift["Location"] or "TBD",
-            "dropoff": shift["Location Destination"] or "TBD",
+            "dropoff": shift["Destination"] or "TBD",
             "task_count": len(task_rows),
             "tasks": task_rows,
             "sheet_filename": sheet_filename,
@@ -415,7 +415,7 @@ def build_agenda_context(conn: sqlite3.Connection, date: str) -> dict:
                 "activity": t["Activity"],
                 "details": t["Details"] or "",
                 "origin": t["Location"] or "",
-                "destination": t["Location Destination"] or "",
+                "destination": t["Destination"] or "",
                 "pax": t["Pax"] or "",
                 "notes": t["Notes"] or "",
             }
@@ -492,7 +492,8 @@ def main():
     conn.close()
 
     if context["total_shifts"] == 0:
-        sys.exit(f"No driver shifts found for '{date}'.")
+        print(f"No driver shifts found for '{date}'.")
+        return
 
     template_src = TEMPLATE_PATH.read_text()
     content = render(context, template_src)
