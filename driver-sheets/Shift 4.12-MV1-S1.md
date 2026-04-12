@@ -1,6 +1,6 @@
 # Matt Herzberger - 4/12 (Sunday)
 
-## 12:15 PM - 7:30 PM
+## 12:15 PM - 6:00 PM
 
 Minivan 1 - Black Chrysler Pacifica - TMO-S1G
 
@@ -24,10 +24,6 @@ Dropoff Location: Warwick Hotel
 
 - <a href="https://www.google.com/maps/dir/?api=1&origin=150%20Clayton%20Ln%2C%20Denver%2C%20CO%2080206&destination=350%20S%20Dahlia%20St%2C%20Denver%2C%20CO%2080246" target="_blank" rel="noopener noreferrer">Hotel Clio -&gt; Mizel Arts & Culture Center at the JCC Denver</a>
 
-### 7:00 PM: Lobby Call: Yoshi Kato to airport
-
-- <a href="https://www.google.com/maps/dir/?api=1&origin=1776%20N%20Grant%20St%2C%20Denver%2C%20CO%2080203&destination=8500%20Pe%C3%B1a%20Blvd%2C%20Denver%2C%20CO%2080249" target="_blank" rel="noopener noreferrer">Warwick Hotel -&gt; Denver Airport</a>
-- Flight: <a href="https://flightaware.com/live/flight/UAL3439" target="_blank" rel="noopener noreferrer">UA 3439</a> → Door 610 (West)
 # Locations
 
 
@@ -55,8 +51,6 @@ Dropoff Location: Warwick Hotel
 - Jon Wikan: [646-298-6878](tel:6462986878)
 
 - Amina Scott: [510-499-6648](tel:5104996648)
-
-- Yoshi Kato: [408 390 7029](tel:4083907029)
 - GTC Contact: Tom [513-675-4467](tel:5136754467)
 - Adi Diner: [917-494-2896](tel:9174942896)
 
