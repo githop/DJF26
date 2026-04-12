@@ -411,13 +411,20 @@ def extract_first_driver(drivers_text: str) -> str:
 
 
 def parse_shift_filename(filename: str) -> dict | None:
-    """Parse 'Shift 4.08-MV1-S1.md' into components."""
-    match = re.match(r"Shift (\d+)\.(\d+)-(MV\d+)-S(\d+)\.md", filename)
+    """Parse 'Shift 4.08-MV1-S1.md' or 'Shift 4.12-Don'sCar-S1.md' into components."""
+    # Match both MV (minivan) and custom vehicle names like "Don'sCar"
+    match = re.match(r"Shift (\d+)\.(\d+)-(.+?)-S(\d+)\.md", filename)
     if match:
+        vehicle_slug = match.group(3)
+        # For minivans, keep the MV prefix; for others, use as-is
+        if vehicle_slug.startswith("MV") and vehicle_slug[2:].isdigit():
+            vehicle_num = vehicle_slug
+        else:
+            vehicle_num = vehicle_slug
         return {
             "month": match.group(1),
             "day": match.group(2),
-            "vehicle_num": match.group(3),
+            "vehicle_num": vehicle_num,
             "shift_num": match.group(4),
             "date_slug": f"{match.group(1)}-{match.group(2)}",
         }
@@ -570,7 +577,12 @@ def build_site():
             driver = extract_first_driver(driver_match.group(1))
 
         # Build URL structure: /shifts/{date}/{driver}/van-{num}-shift-{num}/
-        van_slug = f"van-{parsed['vehicle_num'][2:]}"  # MV1 -> van-1
+        vehicle_num = parsed["vehicle_num"]
+        if vehicle_num.startswith("MV") and vehicle_num[2:].isdigit():
+            van_slug = f"van-{vehicle_num[2:]}"  # MV1 -> van-1
+        else:
+            # For custom vehicles (e.g., "Don'sCar"), create a clean slug
+            van_slug = f"van-{slugify(vehicle_num)}"
         shift_slug = f"shift-{parsed['shift_num']}"
 
         shift_dir = (
